@@ -8,7 +8,7 @@ shader = ExtResource("2_alfgn")
 shader_parameter/smearing = 0.5
 shader_parameter/color_offset = 0.005
 shader_parameter/sharpening = 0.4
-shader_parameter/static_noise = 0.146000006935
+shader_parameter/static_noise = 0.1790000085025
 shader_parameter/crack_center = Vector2(0.15, 0.85)
 shader_parameter/crack_intensity = 0.4
 shader_parameter/crack_size = 0.0
@@ -38,6 +38,13 @@ grow_vertical = 2
 
 [node name="指针图标" type="Sprite2D" parent="界面/指针" unique_id=1028432523]
 texture = ExtResource("1_jdqa5")
+
+[node name="相机界面" type="Control" parent="界面" unique_id=516242915]
+anchors_preset = 0
+offset_left = 576.0
+offset_top = 324.0
+offset_right = 616.0
+offset_bottom = 364.0
 
 [node name="VHS Shader" type="ColorRect" parent="界面" unique_id=2075666563]
 material = SubResource("ShaderMaterial_3jnfs")
