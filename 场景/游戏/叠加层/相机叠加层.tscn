@@ -5,7 +5,6 @@
 [ext_resource type="Shader" uid="uid://dlwbovun2btd5" path="res://资源/着色器/VHS Shader.gdshader" id="2_alfgn"]
 [ext_resource type="Texture2D" uid="uid://qgd55obb3mcd" path="res://资源/贴图/相机叠加/相机边框.png" id="3_3jnfs"]
 [ext_resource type="Texture2D" uid="uid://dlm82i4qoymre" path="res://资源/贴图/相机叠加/REC红点.svg" id="3_11qwh"]
-[ext_resource type="Texture2D" uid="uid://dlhtsw4fvp7a1" path="res://资源/贴图/相机叠加/电池.png" id="5_11qwh"]
 [ext_resource type="Texture2D" uid="uid://dlsosdms5d477" path="res://资源/贴图/相机叠加/电池.svg" id="7_8hsdg"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_3jnfs"]
@@ -66,9 +65,9 @@ layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = -484.0
+offset_left = -528.0
 offset_top = -288.0
-offset_right = 697.6189
+offset_right = 752.2396
 offset_bottom = 393.42853
 grow_horizontal = 2
 grow_vertical = 2
@@ -80,32 +79,26 @@ patch_margin_top = 80
 patch_margin_right = 80
 patch_margin_bottom = 80
 
-[node name="电池" type="Sprite2D" parent="界面/镜内相机叠加" unique_id=772792411]
-visible = false
-position = Vector2(44, 80)
-texture = ExtResource("5_11qwh")
+[node name="Rec红点" type="Sprite2D" parent="界面/镜内相机叠加" unique_id=1107094653]
+position = Vector2(-458.99994, -219.99997)
+scale = Vector2(0.79999876, 0.79999876)
+texture = ExtResource("3_11qwh")
 
-[node name="Label" type="Label" parent="界面/镜内相机叠加" unique_id=1506856677]
-layout_mode = 0
-offset_left = -364.0
-offset_top = -256.0
-offset_right = -260.0
-offset_bottom = -203.0
+[node name="Label" type="Label" parent="界面/镜内相机叠加/Rec红点" unique_id=1506856677]
+offset_left = 45.0
+offset_top = -28.750046
+offset_right = 165.0
+offset_bottom = 31.249954
 theme_override_fonts/font = ExtResource("2_3jnfs")
-theme_override_font_sizes/font_size = 52
+theme_override_font_sizes/font_size = 60
 text = "REC "
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="电池2" type="Sprite2D" parent="界面/镜内相机叠加" unique_id=209317742]
-position = Vector2(460, -232.00002)
+[node name="电池" type="Sprite2D" parent="界面/镜内相机叠加" unique_id=209317742]
+position = Vector2(485, -221.00002)
 scale = Vector2(0.48, 0.48)
 texture = ExtResource("7_8hsdg")
-
-[node name="Rec红点" type="Sprite2D" parent="界面/镜内相机叠加" unique_id=1107094653]
-position = Vector2(-399.99994, -229)
-scale = Vector2(0.79999876, 0.79999876)
-texture = ExtResource("3_11qwh")
 
 [node name="VHS Shader" type="ColorRect" parent="界面" unique_id=2075666563]
 material = SubResource("ShaderMaterial_3jnfs")
