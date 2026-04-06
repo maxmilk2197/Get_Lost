@@ -1,0 +1,26 @@
+[gd_scene format=3 uid="uid://b6r66eb7ao5nn"]
+
+[ext_resource type="Texture2D" uid="uid://ccnyrcywc16mx" path="res://资源/贴图/指针/Magic pointer.svg" id="1_jdqa5"]
+
+[node name="相机叠加层" type="CanvasLayer" unique_id=242835813]
+
+[node name="界面" type="Control" parent="." unique_id=1934340936]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="指针" type="Control" parent="界面" unique_id=786589145]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="指针图标" type="Sprite2D" parent="界面/指针" unique_id=1028432523]
+texture = ExtResource("1_jdqa5")

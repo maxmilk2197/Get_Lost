@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://dn264a7o1nvc4"]
+
+[node name="Pointer" type="Node2D" unique_id=1613830393]
+texture_filter = 1
+
+[node name="MagicPointer" type="Sprite2D" parent="." unique_id=1513754873]
+
+[node name="PointerOut" type="Sprite2D" parent="." unique_id=1482100752]
+scale = Vector2(2, 2)

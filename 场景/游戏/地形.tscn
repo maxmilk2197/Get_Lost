@@ -2,8 +2,9 @@
 
 [ext_resource type="PackedScene" uid="uid://b3fe1mismlsh3" path="res://场景/游戏/角色.tscn" id="1_ls831"]
 [ext_resource type="Script" uid="uid://bxwh2rhlsjmg7" path="res://脚本/游戏中/角色/相机.gd" id="2_r6g0l"]
-[ext_resource type="PackedScene" uid="uid://eayqnpbtxecf" path="res://场景/游戏/暂停菜单.tscn" id="3_8sllw"]
+[ext_resource type="PackedScene" uid="uid://eayqnpbtxecf" path="res://场景/游戏/叠加层/暂停菜单.tscn" id="3_8sllw"]
 [ext_resource type="PackedScene" uid="uid://hhl8d5ipcic7" path="res://场景/游戏/入场动画.tscn" id="4_rwi5p"]
+[ext_resource type="PackedScene" uid="uid://b6r66eb7ao5nn" path="res://场景/游戏/叠加层/相机叠加层.tscn" id="5_o6qkw"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_wuhqh"]
 sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
@@ -57,5 +58,7 @@ mesh = SubResource("PlaneMesh_wuhqh")
 shape = SubResource("ConcavePolygonShape3D_r7m7w")
 
 [node name="入场动画" parent="." unique_id=415654374 instance=ExtResource("4_rwi5p")]
+
+[node name="相机叠加层" parent="." unique_id=242835813 instance=ExtResource("5_o6qkw")]
 
 [editable path="角色"]
