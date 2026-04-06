@@ -10,11 +10,6 @@ func _ready() -> void:
 	await 淡化动画.finished
 	淡化.hide()
 	
-func _process(delta: float) -> void:
-	pass
-
-
-
 
 func 当_开始游戏_被按下() -> void:
 	var 退出淡化 = $"../淡化"
