@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://b3fe1mismlsh3"]
+
+[ext_resource type="Script" uid="uid://doktncy8faa46" path="res://脚本/游戏中/角色/移动.gd" id="1_nbclt"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_wuhqh"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_r7m7w"]
+
+[node name="角色" type="CharacterBody3D" unique_id=2120845360]
+script = ExtResource("1_nbclt")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1667915361]
+mesh = SubResource("CapsuleMesh_wuhqh")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1200624731]
+shape = SubResource("CapsuleShape3D_r7m7w")
+
+[node name="相机" type="Camera3D" parent="." unique_id=2054399839]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.45000637, -0.07307339)

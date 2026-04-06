@@ -11,9 +11,9 @@ config_version=5
 [application]
 
 config/name="get lost"
-run/main_scene="res://地形.tscn"
+run/main_scene="res://场景/游戏/地形.tscn"
 config/features=PackedStringArray("4.6", "Forward Plus")
-config/icon="res://icon.svg"
+config/icon="res://资源/贴图/icon.svg"
 
 [input]
 
