@@ -1,15 +1,19 @@
 [gd_scene format=3 uid="uid://b6r66eb7ao5nn"]
 
 [ext_resource type="Texture2D" uid="uid://ccnyrcywc16mx" path="res://资源/贴图/指针/Magic pointer.svg" id="1_jdqa5"]
-[ext_resource type="Texture2D" uid="uid://u3wrk1kad77r" path="res://资源/贴图/相机叠加/相机_1.png" id="2_3jnfs"]
+[ext_resource type="FontFile" uid="uid://b5kha5tvvp1id" path="res://资源/字体/ark-pixel-font/ark-pixel-12px-monospaced-ja.ttf" id="2_3jnfs"]
 [ext_resource type="Shader" uid="uid://dlwbovun2btd5" path="res://资源/着色器/VHS Shader.gdshader" id="2_alfgn"]
+[ext_resource type="Texture2D" uid="uid://qgd55obb3mcd" path="res://资源/贴图/相机叠加/相机边框.png" id="3_3jnfs"]
+[ext_resource type="Texture2D" uid="uid://dlm82i4qoymre" path="res://资源/贴图/相机叠加/REC红点.svg" id="3_11qwh"]
+[ext_resource type="Texture2D" uid="uid://dlhtsw4fvp7a1" path="res://资源/贴图/相机叠加/电池.png" id="5_11qwh"]
+[ext_resource type="Texture2D" uid="uid://dlsosdms5d477" path="res://资源/贴图/相机叠加/电池.svg" id="7_8hsdg"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_3jnfs"]
 shader = ExtResource("2_alfgn")
-shader_parameter/smearing = 0.5
-shader_parameter/color_offset = 0.005
+shader_parameter/smearing = 0.0
+shader_parameter/color_offset = 1.6299399954733396e-09
 shader_parameter/sharpening = 0.4
-shader_parameter/static_noise = 0.1790000085025
+shader_parameter/static_noise = 0.146000006935
 shader_parameter/crack_center = Vector2(0.15, 0.85)
 shader_parameter/crack_intensity = 0.4
 shader_parameter/crack_size = 0.0
@@ -41,6 +45,68 @@ grow_vertical = 2
 [node name="指针图标" type="Sprite2D" parent="界面/指针" unique_id=1028432523]
 texture = ExtResource("1_jdqa5")
 
+[node name="镜内相机叠加" type="Control" parent="界面" unique_id=959426291]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(20, 20)
+metadata/_edit_use_anchors_ = true
+
+[node name="四周" type="NinePatchRect" parent="界面/镜内相机叠加" unique_id=1610021245]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -484.0
+offset_top = -288.0
+offset_right = 697.6189
+offset_bottom = 393.42853
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.839999, 0.839999)
+texture = ExtResource("3_3jnfs")
+region_rect = Rect2(14, 19, 1050, 773)
+patch_margin_left = 80
+patch_margin_top = 80
+patch_margin_right = 80
+patch_margin_bottom = 80
+
+[node name="电池" type="Sprite2D" parent="界面/镜内相机叠加" unique_id=772792411]
+visible = false
+position = Vector2(44, 80)
+texture = ExtResource("5_11qwh")
+
+[node name="Label" type="Label" parent="界面/镜内相机叠加" unique_id=1506856677]
+layout_mode = 0
+offset_left = -364.0
+offset_top = -256.0
+offset_right = -260.0
+offset_bottom = -203.0
+theme_override_fonts/font = ExtResource("2_3jnfs")
+theme_override_font_sizes/font_size = 52
+text = "REC "
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="电池2" type="Sprite2D" parent="界面/镜内相机叠加" unique_id=209317742]
+position = Vector2(460, -232.00002)
+scale = Vector2(0.48, 0.48)
+texture = ExtResource("7_8hsdg")
+
+[node name="Rec红点" type="Sprite2D" parent="界面/镜内相机叠加" unique_id=1107094653]
+position = Vector2(-399.99994, -229)
+scale = Vector2(0.79999876, 0.79999876)
+texture = ExtResource("3_11qwh")
+
 [node name="VHS Shader" type="ColorRect" parent="界面" unique_id=2075666563]
 material = SubResource("ShaderMaterial_3jnfs")
 layout_mode = 1
@@ -51,17 +117,3 @@ grow_horizontal = 2
 grow_vertical = 2
 color = Color(1, 1, 1, 0)
 metadata/_edit_lock_ = true
-
-[node name="相机界面" type="Control" parent="界面" unique_id=516242915]
-layout_mode = 1
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-grow_horizontal = 2
-grow_vertical = 2
-
-[node name="相机叠加" type="Sprite2D" parent="界面/相机界面" unique_id=963176980]
-scale = Vector2(0.80308634, 0.80308634)
-texture = ExtResource("2_3jnfs")

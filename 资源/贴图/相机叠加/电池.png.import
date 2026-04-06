@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://tnm5rnrgv1j1"
-path="res://.godot/imported/1775487798684.png-a772989314c20b210e833cd86bebe65d.ctex"
+uid="uid://dlhtsw4fvp7a1"
+path="res://.godot/imported/电池.png-9c17b4f2b292f44dc4a9608f98d445df.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://资源/贴图/相机叠加/1775487798684.png"
-dest_files=["res://.godot/imported/1775487798684.png-a772989314c20b210e833cd86bebe65d.ctex"]
+source_file="res://资源/贴图/相机叠加/电池.png"
+dest_files=["res://.godot/imported/电池.png-9c17b4f2b292f44dc4a9608f98d445df.ctex"]
 
 [params]
 
