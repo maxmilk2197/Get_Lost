@@ -9,7 +9,7 @@ uniform float sharpening : hint_range(0.0, 1.0) = 0.4;
 uniform float static_noise : hint_range(0.0, 1.0) = 0.08;
 
 group_uniforms Glass_Crack;
-uniform vec2 crack_center = vec2(0.15, 0.85);
+uniform vec2 crack_center = vec2(0.15, 0.85);                     
 uniform float crack_intensity : hint_range(0.0, 1.0) = 0.4;
 uniform float crack_size : hint_range(0.0, 1.0) = 0.35;
 

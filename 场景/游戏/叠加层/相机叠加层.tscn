@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://b6r66eb7ao5nn"]
 
 [ext_resource type="Texture2D" uid="uid://ccnyrcywc16mx" path="res://资源/贴图/指针/Magic pointer.svg" id="1_jdqa5"]
+[ext_resource type="Texture2D" uid="uid://u3wrk1kad77r" path="res://资源/贴图/相机叠加/相机_1.png" id="2_3jnfs"]
 [ext_resource type="Shader" uid="uid://dlwbovun2btd5" path="res://资源/着色器/VHS Shader.gdshader" id="2_alfgn"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_3jnfs"]
@@ -25,6 +26,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+metadata/_edit_lock_ = true
 
 [node name="指针" type="Control" parent="界面" unique_id=786589145]
 layout_mode = 1
@@ -39,13 +41,6 @@ grow_vertical = 2
 [node name="指针图标" type="Sprite2D" parent="界面/指针" unique_id=1028432523]
 texture = ExtResource("1_jdqa5")
 
-[node name="相机界面" type="Control" parent="界面" unique_id=516242915]
-anchors_preset = 0
-offset_left = 576.0
-offset_top = 324.0
-offset_right = 616.0
-offset_bottom = 364.0
-
 [node name="VHS Shader" type="ColorRect" parent="界面" unique_id=2075666563]
 material = SubResource("ShaderMaterial_3jnfs")
 layout_mode = 1
@@ -54,3 +49,19 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+color = Color(1, 1, 1, 0)
+metadata/_edit_lock_ = true
+
+[node name="相机界面" type="Control" parent="界面" unique_id=516242915]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="相机叠加" type="Sprite2D" parent="界面/相机界面" unique_id=963176980]
+scale = Vector2(0.80308634, 0.80308634)
+texture = ExtResource("2_3jnfs")

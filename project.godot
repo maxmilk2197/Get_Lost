@@ -13,7 +13,6 @@ config_version=5
 config/name="get lost"
 run/main_scene="uid://dpuibo3y3572o"
 config/features=PackedStringArray("4.6", "Forward Plus")
-config/icon="res://资源/贴图/icon.svg"
 
 [input]
 
