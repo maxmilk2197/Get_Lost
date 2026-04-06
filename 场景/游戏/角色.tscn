@@ -9,10 +9,10 @@
 [node name="角色" type="CharacterBody3D" unique_id=2120845360]
 script = ExtResource("1_nbclt")
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1667915361]
+[node name="网格实例" type="MeshInstance3D" parent="." unique_id=1667915361]
 mesh = SubResource("CapsuleMesh_wuhqh")
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1200624731]
+[node name="碰撞形状" type="CollisionShape3D" parent="." unique_id=1200624731]
 shape = SubResource("CapsuleShape3D_r7m7w")
 
 [node name="相机" type="Camera3D" parent="." unique_id=2054399839]
