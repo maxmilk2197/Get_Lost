@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://eayqnpbtxecf"]
+
+[ext_resource type="Script" uid="uid://s43f8u81urmc" path="res://脚本/游戏中/菜单/暂停菜单.gd" id="1_k28yk"]
+
+[node name="暂停菜单" type="CanvasLayer" unique_id=1127568187]
+script = ExtResource("1_k28yk")
+
+[node name="标题" type="Label" parent="." unique_id=609900601]
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 105.0
+grow_horizontal = 2
+theme_override_font_sizes/font_size = 35
+text = "暂停"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="背景" type="ColorRect" parent="." unique_id=2095775197]
+visible = false
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.29803923)
