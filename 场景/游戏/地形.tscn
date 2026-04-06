@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://bweooq0t2xl62"]
 
-[ext_resource type="Script" uid="uid://doktncy8faa46" path="res://scripts/player.gd" id="1_r7m7w"]
+[ext_resource type="PackedScene" uid="uid://b3fe1mismlsh3" path="res://场景/游戏/角色.tscn" id="1_ls831"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_wuhqh"]
 sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
@@ -21,10 +21,6 @@ size = Vector2(100, 100)
 [sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_r7m7w"]
 data = PackedVector3Array(50, 0, 50, -50, 0, 50, 50, 0, -50, -50, 0, 50, -50, 0, -50, 50, 0, -50)
 
-[sub_resource type="CapsuleMesh" id="CapsuleMesh_wuhqh"]
-
-[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_r7m7w"]
-
 [node name="地形" type="Node3D" unique_id=827532775]
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1387509320]
@@ -43,15 +39,5 @@ mesh = SubResource("PlaneMesh_wuhqh")
 [node name="CollisionShape3D" type="CollisionShape3D" parent="MeshInstance3D/StaticBody3D" unique_id=540667946]
 shape = SubResource("ConcavePolygonShape3D_r7m7w")
 
-[node name="player" type="CharacterBody3D" parent="." unique_id=1257903391]
+[node name="角色" parent="." unique_id=2120845360 instance=ExtResource("1_ls831")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
-script = ExtResource("1_r7m7w")
-
-[node name="MeshInstance3D" type="MeshInstance3D" parent="player" unique_id=1507424651]
-mesh = SubResource("CapsuleMesh_wuhqh")
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="player" unique_id=516556261]
-shape = SubResource("CapsuleShape3D_r7m7w")
-
-[node name="Camera3D" type="Camera3D" parent="player" unique_id=2122024700]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.45000637, -0.07307339)
