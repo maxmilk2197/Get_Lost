@@ -29,6 +29,7 @@ func _ready() -> void:
 	# 捕获并隐藏鼠标
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
 	
+	
 func _input(event: InputEvent) -> void:
 	# 处理 ESC 键：切换暂停 / 恢复
 	if event.is_action_pressed("ui_cancel"):
