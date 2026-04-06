@@ -59,6 +59,18 @@ offset_right = 196.0
 offset_bottom = 264.0
 text = "退出"
 
+[node name="淡化" type="ColorRect" parent="." unique_id=883407139]
+visible = false
+z_index = 2
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
 [connection signal="pressed" from="九宫格/开始游戏" to="九宫格" method="当_开始游戏_被按下"]
 [connection signal="pressed" from="九宫格/设置" to="九宫格" method="当_设置_被按下"]
 [connection signal="pressed" from="九宫格/退出" to="九宫格" method="当_退出_被按下"]

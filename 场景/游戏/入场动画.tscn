@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://hhl8d5ipcic7"]
+
+[ext_resource type="Script" uid="uid://xummj52ee5ks" path="res://脚本/游戏中/叠加/入场动画.gd" id="1_inl62"]
+
+[node name="入场动画" type="CanvasLayer" unique_id=415654374]
+script = ExtResource("1_inl62")
+
+[node name="淡化" type="ColorRect" parent="." unique_id=301629882]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
