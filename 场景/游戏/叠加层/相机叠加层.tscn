@@ -1,6 +1,20 @@
 [gd_scene format=3 uid="uid://b6r66eb7ao5nn"]
 
 [ext_resource type="Texture2D" uid="uid://ccnyrcywc16mx" path="res://资源/贴图/指针/Magic pointer.svg" id="1_jdqa5"]
+[ext_resource type="Shader" uid="uid://dlwbovun2btd5" path="res://资源/着色器/VHS Shader.gdshader" id="2_alfgn"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_3jnfs"]
+shader = ExtResource("2_alfgn")
+shader_parameter/smearing = 0.5
+shader_parameter/color_offset = 0.005
+shader_parameter/sharpening = 0.4
+shader_parameter/static_noise = 0.146000006935
+shader_parameter/crack_center = Vector2(0.15, 0.85)
+shader_parameter/crack_intensity = 0.4
+shader_parameter/crack_size = 0.0
+shader_parameter/vertical_jitter = 0.002
+shader_parameter/scanline_opacity = 0.1
+shader_parameter/vignette_intensity = 0.3
 
 [node name="相机叠加层" type="CanvasLayer" unique_id=242835813]
 
@@ -24,3 +38,12 @@ grow_vertical = 2
 
 [node name="指针图标" type="Sprite2D" parent="界面/指针" unique_id=1028432523]
 texture = ExtResource("1_jdqa5")
+
+[node name="VHS Shader" type="ColorRect" parent="界面" unique_id=2075666563]
+material = SubResource("ShaderMaterial_3jnfs")
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2

@@ -58,6 +58,7 @@ mesh = SubResource("PlaneMesh_wuhqh")
 shape = SubResource("ConcavePolygonShape3D_r7m7w")
 
 [node name="入场动画" parent="." unique_id=415654374 instance=ExtResource("4_rwi5p")]
+visible = false
 
 [node name="相机叠加层" parent="." unique_id=242835813 instance=ExtResource("5_o6qkw")]
 

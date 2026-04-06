@@ -6,6 +6,7 @@
 script = ExtResource("1_inl62")
 
 [node name="淡化" type="ColorRect" parent="." unique_id=301629882]
+visible = false
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
