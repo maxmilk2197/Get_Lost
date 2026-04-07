@@ -10,7 +10,7 @@
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_3jnfs"]
 shader = ExtResource("2_alfgn")
 shader_parameter/smearing = 0.0
-shader_parameter/color_offset = 1.6299399954733396e-09
+shader_parameter/color_offset = 1.6299399954733394e-09
 shader_parameter/sharpening = 0.4
 shader_parameter/static_noise = 0.146000006935
 shader_parameter/crack_center = Vector2(0.15, 0.85)
