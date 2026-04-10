@@ -1,5 +1,6 @@
 [gd_scene format=3 uid="uid://dpuibo3y3572o"]
 
+[ext_resource type="FontFile" uid="uid://b5kha5tvvp1id" path="res://资源/字体/ark-pixel-font/ark-pixel-12px-monospaced-ja.ttf" id="1_4c03e"]
 [ext_resource type="Script" uid="uid://ci4cudmqhqlib" path="res://脚本/主菜单/九宫格按钮脚本.gd" id="1_n63j1"]
 
 [node name="主菜单" type="Control" unique_id=1581595473]
@@ -16,7 +17,8 @@ anchors_preset = 10
 anchor_right = 1.0
 offset_bottom = 171.0
 grow_horizontal = 2
-theme_override_font_sizes/font_size = 70
+theme_override_fonts/font = ExtResource("1_4c03e")
+theme_override_font_sizes/font_size = 108
 text = " Get Lost"
 horizontal_alignment = 1
 vertical_alignment = 1

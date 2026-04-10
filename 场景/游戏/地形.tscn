@@ -108,7 +108,7 @@ top_level = true
 metadata/_edit_lock_ = true
 
 [node name="角色" parent="." unique_id=2120845360 instance=ExtResource("1_ls831")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 1.76, -1.3433862)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 1.76, 9)
 
 [node name="相机" parent="角色" index="2" unique_id=2054399839 node_paths=PackedStringArray("玩家", "暂停菜单界面")]
 script = ExtResource("2_r6g0l")
