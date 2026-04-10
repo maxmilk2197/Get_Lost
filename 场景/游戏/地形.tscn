@@ -18,7 +18,11 @@ background_mode = 2
 sky = SubResource("Sky_r7m7w")
 tonemap_mode = 2
 glow_enabled = true
+fog_enabled = true
+fog_light_color = Color(0.019607844, 0.019607844, 0.03137255, 1)
+fog_density = 0.15
 volumetric_fog_enabled = true
+volumetric_fog_albedo = Color(0.83137256, 0.7882353, 0.65882355, 1)
 
 [sub_resource type="PlaneMesh" id="PlaneMesh_wuhqh"]
 size = Vector2(100, 100)

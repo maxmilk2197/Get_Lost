@@ -7,7 +7,7 @@ extends CharacterBody3D
 
 # 手感调校参数
 @export var 加速度: float = 12.0          # 地面加速
-@export var 减速度: float = 18.0          # 地面刹车
+@export var 减速度: float = 25.0          # 地面刹车
 @export var 空中转向系数: float = 0.25    # 空中灵活性（0 = 完全无法变向）
 
 # 手电筒相关
