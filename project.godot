@@ -14,6 +14,10 @@ config/name="get lost"
 run/main_scene="uid://dpuibo3y3572o"
 config/features=PackedStringArray("4.6", "Forward Plus")
 
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/terrain_3d/plugin.cfg")
+
 [input]
 
 "移动_左"={
