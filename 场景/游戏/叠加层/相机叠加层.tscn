@@ -6,6 +6,7 @@
 [ext_resource type="Texture2D" uid="uid://qgd55obb3mcd" path="res://资源/贴图/相机叠加/相机边框.png" id="3_3jnfs"]
 [ext_resource type="Texture2D" uid="uid://dlm82i4qoymre" path="res://资源/贴图/相机叠加/REC红点.svg" id="3_11qwh"]
 [ext_resource type="Texture2D" uid="uid://dlsosdms5d477" path="res://资源/贴图/相机叠加/电池.svg" id="7_8hsdg"]
+[ext_resource type="Script" uid="uid://jylpn4eg8tb2" path="res://脚本/游戏中/开发者叠加/FPS.gd" id="7_x4wkn"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_3jnfs"]
 shader = ExtResource("2_alfgn")
@@ -121,3 +122,16 @@ grow_horizontal = 2
 grow_vertical = 2
 color = Color(1, 1, 1, 0)
 metadata/_edit_lock_ = true
+
+[node name="开发者叠加" type="Control" parent="." unique_id=459365808]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="开发者叠加" type="RichTextLabel" parent="开发者叠加" unique_id=201748775]
+layout_mode = 0
+offset_top = 105.0
+offset_right = 266.0
+offset_bottom = 232.0
+script = ExtResource("7_x4wkn")

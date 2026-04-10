@@ -18,8 +18,10 @@ background_mode = 2
 sky = SubResource("Sky_r7m7w")
 tonemap_mode = 2
 glow_enabled = true
+fog_enabled = true
 fog_light_color = Color(0.019607844, 0.019607844, 0.03137255, 1)
 fog_density = 0.15
+volumetric_fog_enabled = true
 volumetric_fog_albedo = Color(0.83137256, 0.7882353, 0.65882355, 1)
 
 [sub_resource type="Gradient" id="Gradient_o6qkw"]
@@ -92,12 +94,13 @@ environment = SubResource("Environment_31881")
 
 [node name="方向光" type="DirectionalLight3D" parent="." unique_id=1975442850]
 transform = Transform3D(-0.8660254, -0.43301278, 0.25, 0, 0.49999997, 0.86602545, -0.50000006, 0.75, -0.43301266, 0, 16.345806, -19.151299)
+visible = false
 shadow_enabled = true
 
 [node name="地形" type="Node3D" parent="." unique_id=278077911]
 
-[node name="地形2" type="Terrain3D" parent="地形" unique_id=207427624]
-data_directory = "res://terrain数据/场景_1"
+[node name="地形" type="Terrain3D" parent="地形" unique_id=2122655360]
+data_directory = "res://terrain数据/地图_1"
 material = SubResource("Terrain3DMaterial_6stho")
 assets = SubResource("Terrain3DAssets_216hy")
 show_checkered = true
@@ -105,7 +108,7 @@ top_level = true
 metadata/_edit_lock_ = true
 
 [node name="角色" parent="." unique_id=2120845360 instance=ExtResource("1_ls831")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 1.76, -1.3433862)
 
 [node name="相机" parent="角色" index="2" unique_id=2054399839 node_paths=PackedStringArray("玩家", "暂停菜单界面")]
 script = ExtResource("2_r6g0l")
@@ -121,4 +124,9 @@ visible = false
 
 [node name="相机叠加层" parent="." unique_id=242835813 instance=ExtResource("5_o6qkw")]
 
+[node name="开发者叠加" parent="相机叠加层/开发者叠加" parent_id_path=PackedInt32Array(242835813, 459365808) index="0" unique_id=201748775 node_paths=PackedStringArray("player")]
+bbcode_enabled = true
+player = NodePath("../../../角色")
+
 [editable path="角色"]
+[editable path="相机叠加层"]
