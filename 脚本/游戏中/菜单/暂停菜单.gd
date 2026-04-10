@@ -14,7 +14,10 @@ func 隐藏菜单():
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
 
 func 当_继续_被按下():
-	隐藏菜单()
+	hide()
+	get_tree().paused = false
+	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
+	$"../角色/相机".是否暂停 = false
 
 func 当_返回主界面_被按下():
 	# 恢复暂停和鼠标，然后切换场景

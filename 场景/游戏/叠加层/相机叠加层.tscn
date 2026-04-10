@@ -76,9 +76,9 @@ patch_margin_bottom = 80
 layout_mode = 1
 anchors_preset = 0
 offset_left = 101.0
-offset_top = 59.0
+offset_top = 79.0
 offset_right = 141.0
-offset_bottom = 99.0
+offset_bottom = 119.0
 
 [node name="Rec红点" type="Sprite2D" parent="界面/镜内相机叠加/REC" unique_id=1107094653]
 scale = Vector2(0.79999876, 0.79999876)
@@ -101,10 +101,10 @@ layout_mode = 1
 anchors_preset = 1
 anchor_left = 1.0
 anchor_right = 1.0
-offset_left = -136.0
-offset_top = 59.0
-offset_right = -96.0
-offset_bottom = 99.0
+offset_left = -137.0
+offset_top = 79.0
+offset_right = -97.0
+offset_bottom = 119.0
 grow_horizontal = 0
 
 [node name="电池" type="Sprite2D" parent="界面/镜内相机叠加/电池" unique_id=209317742]

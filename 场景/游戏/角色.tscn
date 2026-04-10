@@ -6,8 +6,9 @@
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_r7m7w"]
 
-[node name="角色" type="CharacterBody3D" unique_id=2120845360]
+[node name="角色" type="CharacterBody3D" unique_id=2120845360 node_paths=PackedStringArray("手电筒_光")]
 script = ExtResource("1_nbclt")
+"手电筒_光" = NodePath("相机/手电筒_光")
 
 [node name="网格实例" type="MeshInstance3D" parent="." unique_id=1667915361]
 mesh = SubResource("CapsuleMesh_wuhqh")
@@ -17,3 +18,13 @@ shape = SubResource("CapsuleShape3D_r7m7w")
 
 [node name="相机" type="Camera3D" parent="." unique_id=2054399839]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.45000637, -0.07307339)
+fov = 100.60916
+
+[node name="手电筒_光" type="SpotLight3D" parent="相机" unique_id=546441766]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.45000637, 0.07307339)
+shadow_enabled = true
+distance_fade_enabled = true
+
+[node name="角色道具" type="Node3D" parent="." unique_id=51157993]
+
+[node name="手电筒" type="Node3D" parent="角色道具" unique_id=1590217560]
