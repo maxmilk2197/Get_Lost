@@ -10,7 +10,7 @@
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_3jnfs"]
 shader = ExtResource("2_alfgn")
 shader_parameter/smearing = 0.0
-shader_parameter/color_offset = 1.6299399954733394e-09
+shader_parameter/color_offset = 1.6299399954733392e-09
 shader_parameter/sharpening = 0.4
 shader_parameter/static_noise = 0.146000006935
 shader_parameter/crack_center = Vector2(0.15, 0.85)
@@ -46,29 +46,21 @@ texture = ExtResource("1_jdqa5")
 
 [node name="镜内相机叠加" type="Control" parent="界面" unique_id=959426291]
 layout_mode = 1
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -20.0
-offset_top = -20.0
-offset_right = 20.0
-offset_bottom = 20.0
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 pivot_offset = Vector2(20, 20)
-metadata/_edit_use_anchors_ = true
 
 [node name="四周" type="NinePatchRect" parent="界面/镜内相机叠加" unique_id=1610021245]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = -528.0
-offset_top = -288.0
-offset_right = 752.2396
-offset_bottom = 393.42853
+offset_left = 25.0
+offset_right = 167.0492
+offset_bottom = 123.429504
 grow_horizontal = 2
 grow_vertical = 2
 scale = Vector2(0.839999, 0.839999)
@@ -79,12 +71,20 @@ patch_margin_top = 80
 patch_margin_right = 80
 patch_margin_bottom = 80
 
-[node name="Rec红点" type="Sprite2D" parent="界面/镜内相机叠加" unique_id=1107094653]
-position = Vector2(-458.99994, -219.99997)
+[node name="REC" type="Control" parent="界面/镜内相机叠加" unique_id=1075508669]
+layout_mode = 1
+anchors_preset = 0
+offset_left = 101.0
+offset_top = 59.0
+offset_right = 141.0
+offset_bottom = 99.0
+
+[node name="Rec红点" type="Sprite2D" parent="界面/镜内相机叠加/REC" unique_id=1107094653]
 scale = Vector2(0.79999876, 0.79999876)
 texture = ExtResource("3_11qwh")
 
-[node name="Label" type="Label" parent="界面/镜内相机叠加/Rec红点" unique_id=1506856677]
+[node name="REC" type="Label" parent="界面/镜内相机叠加/REC" unique_id=1506856677]
+layout_mode = 0
 offset_left = 45.0
 offset_top = -28.750046
 offset_right = 165.0
@@ -95,8 +95,18 @@ text = "REC "
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="电池" type="Sprite2D" parent="界面/镜内相机叠加" unique_id=209317742]
-position = Vector2(485, -221.00002)
+[node name="电池" type="Control" parent="界面/镜内相机叠加" unique_id=855400629]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -136.0
+offset_top = 59.0
+offset_right = -96.0
+offset_bottom = 99.0
+grow_horizontal = 0
+
+[node name="电池" type="Sprite2D" parent="界面/镜内相机叠加/电池" unique_id=209317742]
 scale = Vector2(0.48, 0.48)
 texture = ExtResource("7_8hsdg")
 
