@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://hhl8d5ipcic7"]
 
 [ext_resource type="Script" uid="uid://xummj52ee5ks" path="res://脚本/游戏中/叠加/入场动画.gd" id="1_inl62"]
+[ext_resource type="FontFile" uid="uid://b5kha5tvvp1id" path="res://资源/字体/ark-pixel-font/ark-pixel-12px-monospaced-ja.ttf" id="2_0m1em"]
 
 [node name="入场动画" type="CanvasLayer" unique_id=415654374]
 script = ExtResource("1_inl62")
@@ -13,3 +14,19 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 color = Color(0, 0, 0, 1)
+
+[node name="加载中" type="Label" parent="." unique_id=1756215229]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -21.0
+offset_top = -35.0
+offset_right = -21.0
+offset_bottom = -35.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("2_0m1em")
+theme_override_font_sizes/font_size = 150
+text = "加载中"
+horizontal_alignment = 2
+vertical_alignment = 2
