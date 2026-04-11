@@ -18,7 +18,7 @@ anchor_right = 1.0
 offset_bottom = 171.0
 grow_horizontal = 2
 theme_override_fonts/font = ExtResource("1_4c03e")
-theme_override_font_sizes/font_size = 108
+theme_override_font_sizes/font_size = 200
 text = " Get Lost"
 horizontal_alignment = 1
 vertical_alignment = 1
@@ -33,6 +33,7 @@ offset_top = -132.0
 offset_right = 220.0
 offset_bottom = 188.0
 grow_vertical = 2
+scale = Vector2(2, 2)
 script = ExtResource("1_n63j1")
 
 [node name="开始游戏" type="Button" parent="九宫格" unique_id=1119715800]

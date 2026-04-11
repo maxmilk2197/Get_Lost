@@ -5,6 +5,8 @@
 [ext_resource type="PackedScene" uid="uid://eayqnpbtxecf" path="res://场景/游戏/叠加层/暂停菜单.tscn" id="3_8sllw"]
 [ext_resource type="PackedScene" uid="uid://hhl8d5ipcic7" path="res://场景/游戏/入场动画.tscn" id="4_rwi5p"]
 [ext_resource type="PackedScene" uid="uid://b6r66eb7ao5nn" path="res://场景/游戏/叠加层/相机叠加层.tscn" id="5_o6qkw"]
+[ext_resource type="ArrayMesh" uid="uid://dv4xns76accyi" path="res://资源/模型/tree01.obj" id="6_101i1"]
+[ext_resource type="Texture2D" uid="uid://cb3ppjxhl7puk" path="res://资源/贴图/模型贴图/tree01_summer.png" id="6_sccre"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_wuhqh"]
 sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
@@ -14,7 +16,7 @@ ground_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
 sky_material = SubResource("ProceduralSkyMaterial_wuhqh")
 
 [sub_resource type="Environment" id="Environment_31881"]
-background_mode = 2
+background_mode = 1
 sky = SubResource("Sky_r7m7w")
 tonemap_mode = 2
 glow_enabled = true
@@ -23,6 +25,7 @@ fog_light_color = Color(0.019607844, 0.019607844, 0.03137255, 1)
 fog_density = 0.15
 volumetric_fog_enabled = true
 volumetric_fog_albedo = Color(0.83137256, 0.7882353, 0.65882355, 1)
+volumetric_fog_temporal_reprojection_enabled = false
 
 [sub_resource type="Gradient" id="Gradient_o6qkw"]
 offsets = PackedFloat32Array(0.2, 1)
@@ -87,6 +90,9 @@ lod0_range = 128.0
 [sub_resource type="Terrain3DAssets" id="Terrain3DAssets_216hy"]
 mesh_list = Array[Terrain3DMeshAsset]([SubResource("Terrain3DMeshAsset_1jyit")])
 
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6stho"]
+albedo_texture = ExtResource("6_sccre")
+
 [node name="游戏场景_1" type="Node3D" unique_id=827532775]
 
 [node name="世界环境" type="WorldEnvironment" parent="." unique_id=1387509320]
@@ -94,7 +100,7 @@ environment = SubResource("Environment_31881")
 
 [node name="方向光" type="DirectionalLight3D" parent="." unique_id=1975442850]
 transform = Transform3D(-0.8660254, -0.43301278, 0.25, 0, 0.49999997, 0.86602545, -0.50000006, 0.75, -0.43301266, 0, 16.345806, -19.151299)
-visible = false
+light_color = Color(0.0885599, 0.0885599, 0.0885599, 1)
 shadow_enabled = true
 
 [node name="地形" type="Node3D" parent="." unique_id=278077911]
@@ -127,6 +133,11 @@ visible = false
 [node name="开发者叠加" parent="相机叠加层/开发者叠加" parent_id_path=PackedInt32Array(242835813, 459365808) index="0" unique_id=201748775 node_paths=PackedStringArray("player")]
 bbcode_enabled = true
 player = NodePath("../../../角色")
+
+[node name="Tree01" type="MeshInstance3D" parent="." unique_id=605961482]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.803413, 0, 6.5852766)
+material_override = SubResource("StandardMaterial3D_6stho")
+mesh = ExtResource("6_101i1")
 
 [editable path="角色"]
 [editable path="相机叠加层"]

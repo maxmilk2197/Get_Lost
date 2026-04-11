@@ -17,13 +17,14 @@ mesh = SubResource("CapsuleMesh_wuhqh")
 shape = SubResource("CapsuleShape3D_r7m7w")
 
 [node name="相机" type="Camera3D" parent="." unique_id=2054399839]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.45000637, -0.07307339)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.45000637, -0.37876892)
 fov = 100.60916
 
 [node name="手电筒_光" type="SpotLight3D" parent="相机" unique_id=546441766]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.45000637, 0.07307339)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.028217524, 0.047253132)
 shadow_enabled = true
 distance_fade_enabled = true
+spot_range = 6.5682263
 
 [node name="角色道具" type="Node3D" parent="." unique_id=51157993]
 

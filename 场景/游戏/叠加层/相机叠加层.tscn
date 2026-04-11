@@ -5,6 +5,7 @@
 [ext_resource type="Shader" uid="uid://dlwbovun2btd5" path="res://资源/着色器/VHS Shader.gdshader" id="2_alfgn"]
 [ext_resource type="Texture2D" uid="uid://qgd55obb3mcd" path="res://资源/贴图/相机叠加/相机边框.png" id="3_3jnfs"]
 [ext_resource type="Texture2D" uid="uid://dlm82i4qoymre" path="res://资源/贴图/相机叠加/REC红点.svg" id="3_11qwh"]
+[ext_resource type="Script" uid="uid://bj00t0o738qub" path="res://脚本/游戏中/叠加/rec.gd" id="3_x4wkn"]
 [ext_resource type="Texture2D" uid="uid://dlsosdms5d477" path="res://资源/贴图/相机叠加/电池.svg" id="7_8hsdg"]
 [ext_resource type="Script" uid="uid://jylpn4eg8tb2" path="res://脚本/游戏中/开发者叠加/FPS.gd" id="7_x4wkn"]
 
@@ -33,6 +34,7 @@ grow_vertical = 2
 metadata/_edit_lock_ = true
 
 [node name="指针" type="Control" parent="界面" unique_id=786589145]
+visible = false
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -50,6 +52,7 @@ layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+offset_top = -24.0
 grow_horizontal = 2
 grow_vertical = 2
 pivot_offset = Vector2(20, 20)
@@ -59,10 +62,10 @@ layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = 25.0
-offset_top = 16.0
-offset_right = 167.0492
-offset_bottom = 97.76276
+offset_left = 64.0
+offset_top = 48.000004
+offset_right = 277.3357
+offset_bottom = 168.00146
 grow_horizontal = 2
 grow_vertical = 2
 scale = Vector2(0.839999, 0.839999)
@@ -76,10 +79,11 @@ patch_margin_bottom = 80
 [node name="REC" type="Control" parent="界面/镜内相机叠加" unique_id=1075508669]
 layout_mode = 1
 anchors_preset = 0
-offset_left = 101.0
-offset_top = 79.0
-offset_right = 141.0
-offset_bottom = 119.0
+offset_left = 152.0
+offset_top = 112.0
+offset_right = 192.0
+offset_bottom = 152.0
+script = ExtResource("3_x4wkn")
 
 [node name="Rec红点" type="Sprite2D" parent="界面/镜内相机叠加/REC" unique_id=1107094653]
 scale = Vector2(0.79999876, 0.79999876)
@@ -102,10 +106,10 @@ layout_mode = 1
 anchors_preset = 1
 anchor_left = 1.0
 anchor_right = 1.0
-offset_left = -137.0
-offset_top = 79.0
-offset_right = -97.0
-offset_bottom = 119.0
+offset_left = -176.0
+offset_top = 112.0
+offset_right = -136.0
+offset_bottom = 152.0
 grow_horizontal = 0
 
 [node name="电池" type="Sprite2D" parent="界面/镜内相机叠加/电池" unique_id=209317742]
