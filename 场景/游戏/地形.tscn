@@ -5,8 +5,7 @@
 [ext_resource type="PackedScene" uid="uid://eayqnpbtxecf" path="res://场景/游戏/叠加层/暂停菜单.tscn" id="3_8sllw"]
 [ext_resource type="PackedScene" uid="uid://hhl8d5ipcic7" path="res://场景/游戏/入场动画.tscn" id="4_rwi5p"]
 [ext_resource type="PackedScene" uid="uid://b6r66eb7ao5nn" path="res://场景/游戏/叠加层/相机叠加层.tscn" id="5_o6qkw"]
-[ext_resource type="ArrayMesh" uid="uid://dv4xns76accyi" path="res://资源/模型/tree01.obj" id="6_101i1"]
-[ext_resource type="Texture2D" uid="uid://cb3ppjxhl7puk" path="res://资源/贴图/模型贴图/tree01_summer.png" id="6_sccre"]
+[ext_resource type="ArrayMesh" uid="uid://nhrwuvtwtayi" path="res://资源/模型/树/door_brown_a.obj" id="6_101i1"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_wuhqh"]
 sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
@@ -90,9 +89,6 @@ lod0_range = 128.0
 [sub_resource type="Terrain3DAssets" id="Terrain3DAssets_216hy"]
 mesh_list = Array[Terrain3DMeshAsset]([SubResource("Terrain3DMeshAsset_1jyit")])
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6stho"]
-albedo_texture = ExtResource("6_sccre")
-
 [node name="游戏场景_1" type="Node3D" unique_id=827532775]
 
 [node name="世界环境" type="WorldEnvironment" parent="." unique_id=1387509320]
@@ -112,6 +108,8 @@ assets = SubResource("Terrain3DAssets_216hy")
 show_checkered = true
 top_level = true
 metadata/_edit_lock_ = true
+
+[node name="地图植被" type="Node3D" parent="地形" unique_id=1999402363]
 
 [node name="角色" parent="." unique_id=2120845360 instance=ExtResource("1_ls831")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 1.76, 9)
@@ -135,9 +133,8 @@ visible = false
 bbcode_enabled = true
 player = NodePath("../../../角色")
 
-[node name="Tree01" type="MeshInstance3D" parent="." unique_id=605961482]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.803413, 0, 6.5852766)
-material_override = SubResource("StandardMaterial3D_6stho")
+[node name="DoorBrownA" type="MeshInstance3D" parent="." unique_id=1620419857]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 17.828064, 1.0048105, 8.793467)
 mesh = ExtResource("6_101i1")
 
 [editable path="角色"]
