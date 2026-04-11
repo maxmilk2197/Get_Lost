@@ -126,6 +126,7 @@ layer = 2
 visible = false
 
 [node name="入场动画" parent="." unique_id=415654374 instance=ExtResource("4_rwi5p")]
+layer = 3
 visible = false
 
 [node name="相机叠加层" parent="." unique_id=242835813 instance=ExtResource("5_o6qkw")]
