@@ -138,4 +138,6 @@ layout_mode = 0
 offset_top = 105.0
 offset_right = 266.0
 offset_bottom = 232.0
+bbcode_enabled = true
+scroll_active = false
 script = ExtResource("7_x4wkn")

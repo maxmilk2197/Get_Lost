@@ -24,7 +24,7 @@ func _process(delta: float) -> void:
 		var pos: Vector3 = player.global_position
 		pos_line = "X: %.2f  Y: %.2f  Z: %.2f" % [pos.x, pos.y, pos.z]
 	else:
-		pos_line = "玩家未引用"
+		pos_line = "玩家未设定"
 	
 	# 合并两行，用换行符隔开
 	text = fps_line + "\n" + pos_line
