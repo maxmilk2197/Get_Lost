@@ -1,0 +1,64 @@
+[gd_scene format=3 uid="uid://bweooq0t2xl62"]
+
+[ext_resource type="PackedScene" uid="uid://b3fe1mismlsh3" path="res://场景/游戏/游戏/角色.tscn" id="1_alw50"]
+[ext_resource type="Script" uid="uid://bxwh2rhlsjmg7" path="res://脚本/游戏中/角色/相机.gd" id="2_jlu8m"]
+[ext_resource type="PackedScene" uid="uid://eayqnpbtxecf" path="res://场景/游戏/叠加层/暂停菜单.tscn" id="3_47q8c"]
+[ext_resource type="PackedScene" uid="uid://hhl8d5ipcic7" path="res://场景/游戏/叠加层/入场动画.tscn" id="4_wt40k"]
+[ext_resource type="PackedScene" uid="uid://b6r66eb7ao5nn" path="res://场景/游戏/叠加层/相机叠加层.tscn" id="5_8ipji"]
+[ext_resource type="PackedScene" uid="uid://d38eabphva4mq" path="res://场景/游戏/地图/地图_1.tscn" id="8_wt40k"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_wuhqh"]
+sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
+ground_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
+
+[sub_resource type="Sky" id="Sky_r7m7w"]
+sky_material = SubResource("ProceduralSkyMaterial_wuhqh")
+
+[sub_resource type="Environment" id="Environment_31881"]
+background_mode = 1
+sky = SubResource("Sky_r7m7w")
+tonemap_mode = 2
+glow_enabled = true
+fog_enabled = true
+fog_light_color = Color(0.019607844, 0.019607844, 0.03137255, 1)
+fog_density = 0.15
+volumetric_fog_enabled = true
+volumetric_fog_albedo = Color(0.83137256, 0.7882353, 0.65882355, 1)
+volumetric_fog_temporal_reprojection_enabled = false
+
+[node name="世界_1" type="Node3D" unique_id=827532775]
+
+[node name="世界环境" type="WorldEnvironment" parent="." unique_id=1387509320]
+environment = SubResource("Environment_31881")
+
+[node name="方向光" type="DirectionalLight3D" parent="." unique_id=1975442850]
+transform = Transform3D(-0.8660254, -0.43301278, 0.25, 0, 0.49999997, 0.86602545, -0.50000006, 0.75, -0.43301266, 0, 34.305313, 0)
+light_color = Color(0.0885599, 0.0885599, 0.0885599, 1)
+shadow_enabled = true
+
+[node name="角色" parent="." unique_id=2120845360 instance=ExtResource("1_alw50")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.3818293, 9.307276, 0)
+
+[node name="相机" parent="角色" index="2" unique_id=2054399839 node_paths=PackedStringArray("玩家", "暂停菜单界面")]
+script = ExtResource("2_jlu8m")
+"玩家" = NodePath("..")
+"暂停菜单界面" = NodePath("../../暂停菜单")
+
+[node name="暂停菜单" parent="." unique_id=1362101489 instance=ExtResource("3_47q8c")]
+layer = 2
+visible = false
+
+[node name="入场动画" parent="." unique_id=415654374 instance=ExtResource("4_wt40k")]
+layer = 3
+visible = false
+
+[node name="相机叠加层" parent="." unique_id=242835813 instance=ExtResource("5_8ipji")]
+
+[node name="开发者叠加" parent="相机叠加层/开发者叠加" parent_id_path=PackedInt32Array(242835813, 459365808) index="0" unique_id=201748775 node_paths=PackedStringArray("player")]
+player = NodePath("../../../角色")
+
+[node name="地图2" parent="." unique_id=1458285047 instance=ExtResource("8_wt40k")]
+
+[editable path="角色"]
+[editable path="相机叠加层"]
+[editable path="地图2"]

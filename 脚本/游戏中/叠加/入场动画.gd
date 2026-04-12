@@ -1,6 +1,6 @@
 extends CanvasLayer
 
-func _ready() -> void:
+'func _ready() -> void:
 	self.show()
 	var 淡化 = $"淡化"
 	$"加载中".show
@@ -18,3 +18,4 @@ func _ready() -> void:
 	await fade_tween.finished
 	淡化.hide()
 	self.hide()
+'
