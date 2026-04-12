@@ -18,7 +18,8 @@ func 当_开始游戏_被按下() -> void:
 	var 淡化动画 = create_tween().bind_node(退出淡化)
 	淡化动画.tween_property(退出淡化, "modulate", Color.BLACK, 0.2)
 	await 淡化动画.finished
-	get_tree().change_scene_to_file("res://场景/游戏/地形.tscn")
+	get_tree().change_scene_to_file("res://场景/游戏/游戏/世界1.tscn")
+
 
 func 当_设置_被按下() -> void:
 	pass # Replace with function body.

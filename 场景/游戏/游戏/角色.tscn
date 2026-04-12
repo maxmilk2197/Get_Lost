@@ -11,6 +11,7 @@ script = ExtResource("1_nbclt")
 "手电筒_光" = NodePath("相机/手电筒_光")
 
 [node name="网格实例" type="MeshInstance3D" parent="." unique_id=1667915361]
+layers = 3
 mesh = SubResource("CapsuleMesh_wuhqh")
 
 [node name="碰撞形状" type="CollisionShape3D" parent="." unique_id=1200624731]
