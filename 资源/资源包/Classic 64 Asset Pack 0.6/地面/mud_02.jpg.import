@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://h7a1feel0mm2"
-path="res://.godot/imported/mud_02.jpg-3173736012275509c7f9fee0978983a2.ctex"
+path="res://.godot/imported/mud_02.jpg-29c08e7297e0efc05594603b8c8434f1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://资源/资源包/Classic 64 Asset Pack 0.6/地面/地面/mud_02.jpg"
-dest_files=["res://.godot/imported/mud_02.jpg-3173736012275509c7f9fee0978983a2.ctex"]
+source_file="res://资源/资源包/Classic 64 Asset Pack 0.6/地面/mud_02.jpg"
+dest_files=["res://.godot/imported/mud_02.jpg-29c08e7297e0efc05594603b8c8434f1.ctex"]
 
 [params]
 

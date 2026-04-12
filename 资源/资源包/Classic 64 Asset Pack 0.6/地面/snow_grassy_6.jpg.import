@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://co2lcjkxk71a0"
-path="res://.godot/imported/snow_grassy_6.jpg-585de079a2200aa3fa5f67499a4eca4d.ctex"
+path="res://.godot/imported/snow_grassy_6.jpg-d923a40456f19d2de3f037d0f7b20229.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://资源/资源包/Classic 64 Asset Pack 0.6/地面/地面/snow_grassy_6.jpg"
-dest_files=["res://.godot/imported/snow_grassy_6.jpg-585de079a2200aa3fa5f67499a4eca4d.ctex"]
+source_file="res://资源/资源包/Classic 64 Asset Pack 0.6/地面/snow_grassy_6.jpg"
+dest_files=["res://.godot/imported/snow_grassy_6.jpg-d923a40456f19d2de3f037d0f7b20229.ctex"]
 
 [params]
 

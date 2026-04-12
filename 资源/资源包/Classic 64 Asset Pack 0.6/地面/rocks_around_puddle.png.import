@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c77ogq16u5pp5"
-path="res://.godot/imported/rocks_around_puddle.png-ccceaa1032206bf6ae4ed44a63446ff7.ctex"
+path="res://.godot/imported/rocks_around_puddle.png-19bddaeceec6b23455910b9f3b11dbc7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://资源/资源包/Classic 64 Asset Pack 0.6/地面/地面/rocks_around_puddle.png"
-dest_files=["res://.godot/imported/rocks_around_puddle.png-ccceaa1032206bf6ae4ed44a63446ff7.ctex"]
+source_file="res://资源/资源包/Classic 64 Asset Pack 0.6/地面/rocks_around_puddle.png"
+dest_files=["res://.godot/imported/rocks_around_puddle.png-19bddaeceec6b23455910b9f3b11dbc7.ctex"]
 
 [params]
 

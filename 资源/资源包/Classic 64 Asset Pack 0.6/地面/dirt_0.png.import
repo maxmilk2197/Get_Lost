@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bjg1wopclcyhi"
-path="res://.godot/imported/dirt_0.png-078912350f5942aa94586df5d18ad34d.ctex"
+path="res://.godot/imported/dirt_0.png-5fea5f391f62019b9d216bc0fbc271d3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://资源/资源包/Classic 64 Asset Pack 0.6/地面/地面/dirt_0.png"
-dest_files=["res://.godot/imported/dirt_0.png-078912350f5942aa94586df5d18ad34d.ctex"]
+source_file="res://资源/资源包/Classic 64 Asset Pack 0.6/地面/dirt_0.png"
+dest_files=["res://.godot/imported/dirt_0.png-5fea5f391f62019b9d216bc0fbc271d3.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bsfq7cg4a5na5"
-path="res://.godot/imported/sand_01.jpg-28fc8d5b695b131527b93b058d42c279.ctex"
+path="res://.godot/imported/sand_01.jpg-28b2292fbe3236b8528ad585ea0da9f7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://资源/资源包/Classic 64 Asset Pack 0.6/地面/地面/sand_01.jpg"
-dest_files=["res://.godot/imported/sand_01.jpg-28fc8d5b695b131527b93b058d42c279.ctex"]
+source_file="res://资源/资源包/Classic 64 Asset Pack 0.6/地面/sand_01.jpg"
+dest_files=["res://.godot/imported/sand_01.jpg-28b2292fbe3236b8528ad585ea0da9f7.ctex"]
 
 [params]
 

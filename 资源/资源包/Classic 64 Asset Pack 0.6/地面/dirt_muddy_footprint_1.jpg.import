@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c11n124aldkuw"
-path="res://.godot/imported/dirt_muddy_footprint_1.jpg-c38cea38b72682737bb245a6390ea633.ctex"
+path="res://.godot/imported/dirt_muddy_footprint_1.jpg-f59d28287cf3fe46771f84ac10d5a55e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://资源/资源包/Classic 64 Asset Pack 0.6/地面/地面/dirt_muddy_footprint_1.jpg"
-dest_files=["res://.godot/imported/dirt_muddy_footprint_1.jpg-c38cea38b72682737bb245a6390ea633.ctex"]
+source_file="res://资源/资源包/Classic 64 Asset Pack 0.6/地面/dirt_muddy_footprint_1.jpg"
+dest_files=["res://.godot/imported/dirt_muddy_footprint_1.jpg-f59d28287cf3fe46771f84ac10d5a55e.ctex"]
 
 [params]
 

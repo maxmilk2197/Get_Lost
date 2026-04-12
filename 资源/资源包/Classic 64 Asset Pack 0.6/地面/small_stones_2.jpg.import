@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://7kvep112v7r7"
-path="res://.godot/imported/small_stones_2.jpg-374bb5ca9a555849ea731d66d7e339e4.ctex"
+path="res://.godot/imported/small_stones_2.jpg-9a739f65756bcd02a9873715520bc915.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://资源/资源包/Classic 64 Asset Pack 0.6/地面/地面/small_stones_2.jpg"
-dest_files=["res://.godot/imported/small_stones_2.jpg-374bb5ca9a555849ea731d66d7e339e4.ctex"]
+source_file="res://资源/资源包/Classic 64 Asset Pack 0.6/地面/small_stones_2.jpg"
+dest_files=["res://.godot/imported/small_stones_2.jpg-9a739f65756bcd02a9873715520bc915.ctex"]
 
 [params]
 

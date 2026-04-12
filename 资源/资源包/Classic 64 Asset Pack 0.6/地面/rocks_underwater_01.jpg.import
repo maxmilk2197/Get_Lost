@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dg8vbb505wkct"
-path="res://.godot/imported/rocks_underwater_01.jpg-e8e2e07c47c172ce5c130b8f0d0b5b24.ctex"
+path="res://.godot/imported/rocks_underwater_01.jpg-cffb0b72e07ea8fc4fefe44a88db77b5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://资源/资源包/Classic 64 Asset Pack 0.6/地面/地面/rocks_underwater_01.jpg"
-dest_files=["res://.godot/imported/rocks_underwater_01.jpg-e8e2e07c47c172ce5c130b8f0d0b5b24.ctex"]
+source_file="res://资源/资源包/Classic 64 Asset Pack 0.6/地面/rocks_underwater_01.jpg"
+dest_files=["res://.godot/imported/rocks_underwater_01.jpg-cffb0b72e07ea8fc4fefe44a88db77b5.ctex"]
 
 [params]
 

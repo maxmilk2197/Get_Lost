@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b1dusamvk53sx"
-path="res://.godot/imported/ice_13.jpg-1642c99599917029705c830854b32e03.ctex"
+path="res://.godot/imported/ice_13.jpg-51cf30426385cc19c89bd52fd047cb4b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://资源/资源包/Classic 64 Asset Pack 0.6/地面/地面/ice_13.jpg"
-dest_files=["res://.godot/imported/ice_13.jpg-1642c99599917029705c830854b32e03.ctex"]
+source_file="res://资源/资源包/Classic 64 Asset Pack 0.6/地面/ice_13.jpg"
+dest_files=["res://.godot/imported/ice_13.jpg-51cf30426385cc19c89bd52fd047cb4b.ctex"]
 
 [params]
 
