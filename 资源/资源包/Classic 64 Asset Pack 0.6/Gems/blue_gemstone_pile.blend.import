@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dm3rwlxlsi3vw"
-path="res://.godot/imported/blue_gemstone_pile.blend-a424e8e88df94485e92d84629acb19b5.scn"
+path="res://.godot/imported/blue_gemstone_pile.blend-d655e0355e3bef773ef55b683eaa8203.scn"
 
 [deps]
 
-source_file="res://资源/资源包/-Classic 64 Asset Pack 0.6/Gems/blue_gemstone_pile.blend"
-dest_files=["res://.godot/imported/blue_gemstone_pile.blend-a424e8e88df94485e92d84629acb19b5.scn"]
+source_file="res://资源/资源包/Classic 64 Asset Pack 0.6/Gems/blue_gemstone_pile.blend"
+dest_files=["res://.godot/imported/blue_gemstone_pile.blend-d655e0355e3bef773ef55b683eaa8203.scn"]
 
 [params]
 

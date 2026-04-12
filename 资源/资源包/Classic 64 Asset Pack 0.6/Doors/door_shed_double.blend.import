@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://c5jtrdi1xuloy"
-path="res://.godot/imported/door_shed_double.blend-bfa1c3416de01f98bcdd4096fc838169.scn"
+path="res://.godot/imported/door_shed_double.blend-fb4fb3ba436c6d6785fe8d4a76f90085.scn"
 
 [deps]
 
-source_file="res://资源/资源包/-Classic 64 Asset Pack 0.6/Doors/door_shed_double.blend"
-dest_files=["res://.godot/imported/door_shed_double.blend-bfa1c3416de01f98bcdd4096fc838169.scn"]
+source_file="res://资源/资源包/Classic 64 Asset Pack 0.6/Doors/door_shed_double.blend"
+dest_files=["res://.godot/imported/door_shed_double.blend-fb4fb3ba436c6d6785fe8d4a76f90085.scn"]
 
 [params]
 

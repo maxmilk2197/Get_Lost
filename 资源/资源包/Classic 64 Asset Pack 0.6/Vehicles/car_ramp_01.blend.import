@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://c5j3rae2kh8dc"
-path="res://.godot/imported/car_ramp_01.blend-acb8fa863e1cdad350ae1af1f1af342b.scn"
+path="res://.godot/imported/car_ramp_01.blend-57bd1b2fc7e81695cd95a25697763231.scn"
 
 [deps]
 
-source_file="res://资源/资源包/-Classic 64 Asset Pack 0.6/Vehicles/car_ramp_01.blend"
-dest_files=["res://.godot/imported/car_ramp_01.blend-acb8fa863e1cdad350ae1af1f1af342b.scn"]
+source_file="res://资源/资源包/Classic 64 Asset Pack 0.6/Vehicles/car_ramp_01.blend"
+dest_files=["res://.godot/imported/car_ramp_01.blend-57bd1b2fc7e81695cd95a25697763231.scn"]
 
 [params]
 

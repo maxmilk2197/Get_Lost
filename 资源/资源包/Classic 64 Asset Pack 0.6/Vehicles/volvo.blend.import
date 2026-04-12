@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dxccntxy5hu00"
-path="res://.godot/imported/volvo.blend-51e7c610bfcb3ccb9801886b56008122.scn"
+path="res://.godot/imported/volvo.blend-0923c1996dcbe975f1d18eb79d00aeb7.scn"
 
 [deps]
 
-source_file="res://资源/资源包/-Classic 64 Asset Pack 0.6/Vehicles/volvo.blend"
-dest_files=["res://.godot/imported/volvo.blend-51e7c610bfcb3ccb9801886b56008122.scn"]
+source_file="res://资源/资源包/Classic 64 Asset Pack 0.6/Vehicles/volvo.blend"
+dest_files=["res://.godot/imported/volvo.blend-0923c1996dcbe975f1d18eb79d00aeb7.scn"]
 
 [params]
 

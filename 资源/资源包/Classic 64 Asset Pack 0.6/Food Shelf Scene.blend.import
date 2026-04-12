@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://of7vhvg0vhrb"
-path="res://.godot/imported/Food Shelf Scene.blend-f297df18c010600cfbad1fffc70f268c.scn"
+path="res://.godot/imported/Food Shelf Scene.blend-1a60ed74c014d6f01076927d6656b9a5.scn"
 
 [deps]
 
-source_file="res://资源/资源包/-Classic 64 Asset Pack 0.6/Food Shelf Scene.blend"
-dest_files=["res://.godot/imported/Food Shelf Scene.blend-f297df18c010600cfbad1fffc70f268c.scn"]
+source_file="res://资源/资源包/Classic 64 Asset Pack 0.6/Food Shelf Scene.blend"
+dest_files=["res://.godot/imported/Food Shelf Scene.blend-1a60ed74c014d6f01076927d6656b9a5.scn"]
 
 [params]
 

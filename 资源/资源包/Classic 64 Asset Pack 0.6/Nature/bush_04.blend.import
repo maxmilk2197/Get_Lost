@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cmonsymq63rq0"
-path="res://.godot/imported/bush_04.blend-366ea7f63717ed331fd291175e25eea1.scn"
+path="res://.godot/imported/bush_04.blend-2481550e8abe1c62123852c8fffa9e78.scn"
 
 [deps]
 
-source_file="res://资源/资源包/-Classic 64 Asset Pack 0.6/Nature/bush_04.blend"
-dest_files=["res://.godot/imported/bush_04.blend-366ea7f63717ed331fd291175e25eea1.scn"]
+source_file="res://资源/资源包/Classic 64 Asset Pack 0.6/Nature/bush_04.blend"
+dest_files=["res://.godot/imported/bush_04.blend-2481550e8abe1c62123852c8fffa9e78.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://sis3jfatoxk8"
-path="res://.godot/imported/yellow_post.blend-c519d98858e5d6fb7de8f321095be097.scn"
+path="res://.godot/imported/yellow_post.blend-80d4835af1f4f6487ccbc2d87bec8f02.scn"
 
 [deps]
 
-source_file="res://资源/资源包/-Classic 64 Asset Pack 0.6/Industrial/yellow_post.blend"
-dest_files=["res://.godot/imported/yellow_post.blend-c519d98858e5d6fb7de8f321095be097.scn"]
+source_file="res://资源/资源包/Classic 64 Asset Pack 0.6/Industrial/yellow_post.blend"
+dest_files=["res://.godot/imported/yellow_post.blend-80d4835af1f4f6487ccbc2d87bec8f02.scn"]
 
 [params]
 

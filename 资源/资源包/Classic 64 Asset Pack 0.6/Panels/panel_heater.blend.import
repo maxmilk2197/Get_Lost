@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bhfm0tu0sjih1"
-path="res://.godot/imported/panel_heater.blend-0e846433bcf17d701943f7d5662652f0.scn"
+path="res://.godot/imported/panel_heater.blend-b449756e76ebdd59890af16d284ca41f.scn"
 
 [deps]
 
-source_file="res://资源/资源包/-Classic 64 Asset Pack 0.6/Panels/panel_heater.blend"
-dest_files=["res://.godot/imported/panel_heater.blend-0e846433bcf17d701943f7d5662652f0.scn"]
+source_file="res://资源/资源包/Classic 64 Asset Pack 0.6/Panels/panel_heater.blend"
+dest_files=["res://.godot/imported/panel_heater.blend-b449756e76ebdd59890af16d284ca41f.scn"]
 
 [params]
 

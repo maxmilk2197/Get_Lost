@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dn57fgx437l2m"
-path="res://.godot/imported/food_baking_sugar.blend-9735586e7dbe5ed2c10c3d9ce68b1bc4.scn"
+path="res://.godot/imported/food_baking_sugar.blend-f5433a06b1b44319611b8022cb7cdc9d.scn"
 
 [deps]
 
-source_file="res://资源/资源包/-Classic 64 Asset Pack 0.6/Food/food_baking_sugar.blend"
-dest_files=["res://.godot/imported/food_baking_sugar.blend-9735586e7dbe5ed2c10c3d9ce68b1bc4.scn"]
+source_file="res://资源/资源包/Classic 64 Asset Pack 0.6/Food/food_baking_sugar.blend"
+dest_files=["res://.godot/imported/food_baking_sugar.blend-f5433a06b1b44319611b8022cb7cdc9d.scn"]
 
 [params]
 

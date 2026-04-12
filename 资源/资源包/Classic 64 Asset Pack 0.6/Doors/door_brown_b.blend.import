@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://l8q0yd5uyvx4"
-path="res://.godot/imported/door_brown_b.blend-3f5c8fefb6bbc39019f1a76e27f5be5c.scn"
+path="res://.godot/imported/door_brown_b.blend-0de90dd5c55936d4f9cf4ca479ed0043.scn"
 
 [deps]
 
-source_file="res://资源/资源包/-Classic 64 Asset Pack 0.6/Doors/door_brown_b.blend"
-dest_files=["res://.godot/imported/door_brown_b.blend-3f5c8fefb6bbc39019f1a76e27f5be5c.scn"]
+source_file="res://资源/资源包/Classic 64 Asset Pack 0.6/Doors/door_brown_b.blend"
+dest_files=["res://.godot/imported/door_brown_b.blend-0de90dd5c55936d4f9cf4ca479ed0043.scn"]
 
 [params]
 

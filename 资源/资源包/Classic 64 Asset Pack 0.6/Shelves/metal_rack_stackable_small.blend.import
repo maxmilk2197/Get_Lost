@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://di2esm2pf3nnd"
-path="res://.godot/imported/metal_rack_stackable_small.blend-0a3a61887256e9e87bf8051448b40cc3.scn"
+path="res://.godot/imported/metal_rack_stackable_small.blend-6c4334a1fcc0b3b3f102b5092652f946.scn"
 
 [deps]
 
-source_file="res://资源/资源包/-Classic 64 Asset Pack 0.6/Shelves/metal_rack_stackable_small.blend"
-dest_files=["res://.godot/imported/metal_rack_stackable_small.blend-0a3a61887256e9e87bf8051448b40cc3.scn"]
+source_file="res://资源/资源包/Classic 64 Asset Pack 0.6/Shelves/metal_rack_stackable_small.blend"
+dest_files=["res://.godot/imported/metal_rack_stackable_small.blend-6c4334a1fcc0b3b3f102b5092652f946.scn"]
 
 [params]
 

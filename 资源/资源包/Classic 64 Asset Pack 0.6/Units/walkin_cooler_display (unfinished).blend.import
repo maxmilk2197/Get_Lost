@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://byvvtgrnahc3k"
-path="res://.godot/imported/walkin_cooler_display (unfinished).blend-00d0cbe2badcb1b902e60538a382137c.scn"
+path="res://.godot/imported/walkin_cooler_display (unfinished).blend-5dd18847f910c682af71a8c9ea73bdb6.scn"
 
 [deps]
 
-source_file="res://资源/资源包/-Classic 64 Asset Pack 0.6/Units/walkin_cooler_display (unfinished).blend"
-dest_files=["res://.godot/imported/walkin_cooler_display (unfinished).blend-00d0cbe2badcb1b902e60538a382137c.scn"]
+source_file="res://资源/资源包/Classic 64 Asset Pack 0.6/Units/walkin_cooler_display (unfinished).blend"
+dest_files=["res://.godot/imported/walkin_cooler_display (unfinished).blend-5dd18847f910c682af71a8c9ea73bdb6.scn"]
 
 [params]
 

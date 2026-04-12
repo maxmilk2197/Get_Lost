@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dhwfh5ygiiuek"
-path="res://.godot/imported/bike_vintage (unfinished).blend-ed68c30247bbe45192f43ee35a5f2596.scn"
+path="res://.godot/imported/bike_vintage (unfinished).blend-c9e337090cbfcef3b96fb0a8f2b63450.scn"
 
 [deps]
 
-source_file="res://资源/资源包/-Classic 64 Asset Pack 0.6/Vehicles/bike_vintage (unfinished).blend"
-dest_files=["res://.godot/imported/bike_vintage (unfinished).blend-ed68c30247bbe45192f43ee35a5f2596.scn"]
+source_file="res://资源/资源包/Classic 64 Asset Pack 0.6/Vehicles/bike_vintage (unfinished).blend"
+dest_files=["res://.godot/imported/bike_vintage (unfinished).blend-c9e337090cbfcef3b96fb0a8f2b63450.scn"]
 
 [params]
 

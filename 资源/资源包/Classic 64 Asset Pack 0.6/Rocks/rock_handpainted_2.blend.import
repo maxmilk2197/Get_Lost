@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://lyxcwumrwfwv"
-path="res://.godot/imported/rock_handpainted_2.blend-262a45d81b86ce9d36253bad76cbb01b.scn"
+path="res://.godot/imported/rock_handpainted_2.blend-05570da6401d071e4469ba17050a9122.scn"
 
 [deps]
 
-source_file="res://资源/资源包/-Classic 64 Asset Pack 0.6/Rocks/rock_handpainted_2.blend"
-dest_files=["res://.godot/imported/rock_handpainted_2.blend-262a45d81b86ce9d36253bad76cbb01b.scn"]
+source_file="res://资源/资源包/Classic 64 Asset Pack 0.6/Rocks/rock_handpainted_2.blend"
+dest_files=["res://.godot/imported/rock_handpainted_2.blend-05570da6401d071e4469ba17050a9122.scn"]
 
 [params]
 

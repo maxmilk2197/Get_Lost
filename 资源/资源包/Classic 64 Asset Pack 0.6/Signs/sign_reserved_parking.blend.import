@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cssnm7shc75fs"
-path="res://.godot/imported/sign_reserved_parking.blend-785684699d6ac40e628c1bc92bf93df8.scn"
+path="res://.godot/imported/sign_reserved_parking.blend-76d8d797aeffab59fb6bab5046a8f2ae.scn"
 
 [deps]
 
-source_file="res://资源/资源包/-Classic 64 Asset Pack 0.6/Signs/sign_reserved_parking.blend"
-dest_files=["res://.godot/imported/sign_reserved_parking.blend-785684699d6ac40e628c1bc92bf93df8.scn"]
+source_file="res://资源/资源包/Classic 64 Asset Pack 0.6/Signs/sign_reserved_parking.blend"
+dest_files=["res://.godot/imported/sign_reserved_parking.blend-76d8d797aeffab59fb6bab5046a8f2ae.scn"]
 
 [params]
 

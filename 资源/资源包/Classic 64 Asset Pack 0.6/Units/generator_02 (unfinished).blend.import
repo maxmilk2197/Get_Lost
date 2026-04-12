@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bhjlwkvxju0p7"
-path="res://.godot/imported/generator_02 (unfinished).blend-b54a79e62c003ee69e1ebaa8202f5eba.scn"
+path="res://.godot/imported/generator_02 (unfinished).blend-2dbd00a482010f3566e6210f01008a2f.scn"
 
 [deps]
 
-source_file="res://资源/资源包/-Classic 64 Asset Pack 0.6/Units/generator_02 (unfinished).blend"
-dest_files=["res://.godot/imported/generator_02 (unfinished).blend-b54a79e62c003ee69e1ebaa8202f5eba.scn"]
+source_file="res://资源/资源包/Classic 64 Asset Pack 0.6/Units/generator_02 (unfinished).blend"
+dest_files=["res://.godot/imported/generator_02 (unfinished).blend-2dbd00a482010f3566e6210f01008a2f.scn"]
 
 [params]
 

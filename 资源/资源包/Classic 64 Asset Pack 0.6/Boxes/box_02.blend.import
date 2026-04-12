@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://fcmss274863f"
-path="res://.godot/imported/box_02.blend-65b53231583ebf21fb56b9ee701e356b.scn"
+path="res://.godot/imported/box_02.blend-23b4d4aabdd528fe0a5462d007602e62.scn"
 
 [deps]
 
-source_file="res://资源/资源包/-Classic 64 Asset Pack 0.6/Boxes/box_02.blend"
-dest_files=["res://.godot/imported/box_02.blend-65b53231583ebf21fb56b9ee701e356b.scn"]
+source_file="res://资源/资源包/Classic 64 Asset Pack 0.6/Boxes/box_02.blend"
+dest_files=["res://.godot/imported/box_02.blend-23b4d4aabdd528fe0a5462d007602e62.scn"]
 
 [params]
 

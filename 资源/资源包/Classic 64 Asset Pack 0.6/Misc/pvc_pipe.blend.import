@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dapmjrbe5huxt"
-path="res://.godot/imported/pvc_pipe.blend-79e81a043d5f2beb0c274db80dec56de.scn"
+path="res://.godot/imported/pvc_pipe.blend-039388c316e131e4c5613330ed63509b.scn"
 
 [deps]
 
-source_file="res://资源/资源包/-Classic 64 Asset Pack 0.6/Misc/pvc_pipe.blend"
-dest_files=["res://.godot/imported/pvc_pipe.blend-79e81a043d5f2beb0c274db80dec56de.scn"]
+source_file="res://资源/资源包/Classic 64 Asset Pack 0.6/Misc/pvc_pipe.blend"
+dest_files=["res://.godot/imported/pvc_pipe.blend-039388c316e131e4c5613330ed63509b.scn"]
 
 [params]
 

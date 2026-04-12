@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bcubywrxg0dsf"
-path="res://.godot/imported/Garbage Bag.blend-b1791b603e580cd8be55c5e0f1d4119b.scn"
+path="res://.godot/imported/Garbage Bag.blend-24c87ba8752f13211bd49a0e304f5c19.scn"
 
 [deps]
 
-source_file="res://资源/资源包/-Classic 64 Asset Pack 0.6/Misc/Garbage Bag.blend"
-dest_files=["res://.godot/imported/Garbage Bag.blend-b1791b603e580cd8be55c5e0f1d4119b.scn"]
+source_file="res://资源/资源包/Classic 64 Asset Pack 0.6/Misc/Garbage Bag.blend"
+dest_files=["res://.godot/imported/Garbage Bag.blend-24c87ba8752f13211bd49a0e304f5c19.scn"]
 
 [params]
 

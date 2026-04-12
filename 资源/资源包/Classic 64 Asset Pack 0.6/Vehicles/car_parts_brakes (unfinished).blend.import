@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://c5a5bd3rshh3f"
-path="res://.godot/imported/car_parts_brakes (unfinished).blend-3ebba7ffc9a802710c33194f2d5a0425.scn"
+path="res://.godot/imported/car_parts_brakes (unfinished).blend-e0de7b8ef18bab08ed23acd4511c4872.scn"
 
 [deps]
 
-source_file="res://资源/资源包/-Classic 64 Asset Pack 0.6/Vehicles/car_parts_brakes (unfinished).blend"
-dest_files=["res://.godot/imported/car_parts_brakes (unfinished).blend-3ebba7ffc9a802710c33194f2d5a0425.scn"]
+source_file="res://资源/资源包/Classic 64 Asset Pack 0.6/Vehicles/car_parts_brakes (unfinished).blend"
+dest_files=["res://.godot/imported/car_parts_brakes (unfinished).blend-e0de7b8ef18bab08ed23acd4511c4872.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://c7dxlitb5yn3w"
-path="res://.godot/imported/shovel.blend-33595eeadcfb7e9fb7012273d0bbcc6a.scn"
+path="res://.godot/imported/shovel.blend-1ca8e5baf1a4f8b791ef52740a079d6a.scn"
 
 [deps]
 
-source_file="res://资源/资源包/-Classic 64 Asset Pack 0.6/Tools/shovel.blend"
-dest_files=["res://.godot/imported/shovel.blend-33595eeadcfb7e9fb7012273d0bbcc6a.scn"]
+source_file="res://资源/资源包/Classic 64 Asset Pack 0.6/Tools/shovel.blend"
+dest_files=["res://.godot/imported/shovel.blend-1ca8e5baf1a4f8b791ef52740a079d6a.scn"]
 
 [params]
 

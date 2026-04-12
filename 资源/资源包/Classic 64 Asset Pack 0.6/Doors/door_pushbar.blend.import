@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://g67osfhjqe8u"
-path="res://.godot/imported/door_pushbar.blend-4334f593f963f1b317a7f480504ee1c5.scn"
+path="res://.godot/imported/door_pushbar.blend-1508af28752298cc5ebfa87e22def2ac.scn"
 
 [deps]
 
-source_file="res://资源/资源包/-Classic 64 Asset Pack 0.6/Doors/door_pushbar.blend"
-dest_files=["res://.godot/imported/door_pushbar.blend-4334f593f963f1b317a7f480504ee1c5.scn"]
+source_file="res://资源/资源包/Classic 64 Asset Pack 0.6/Doors/door_pushbar.blend"
+dest_files=["res://.godot/imported/door_pushbar.blend-1508af28752298cc5ebfa87e22def2ac.scn"]
 
 [params]
 

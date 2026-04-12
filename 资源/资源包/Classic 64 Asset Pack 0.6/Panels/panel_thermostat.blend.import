@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://m7dy5o016jcm"
-path="res://.godot/imported/panel_thermostat.blend-1feee38223c247e0bd7c078dee48729f.scn"
+path="res://.godot/imported/panel_thermostat.blend-a7863caf22cb25be9450c706c419fedd.scn"
 
 [deps]
 
-source_file="res://资源/资源包/-Classic 64 Asset Pack 0.6/Panels/panel_thermostat.blend"
-dest_files=["res://.godot/imported/panel_thermostat.blend-1feee38223c247e0bd7c078dee48729f.scn"]
+source_file="res://资源/资源包/Classic 64 Asset Pack 0.6/Panels/panel_thermostat.blend"
+dest_files=["res://.godot/imported/panel_thermostat.blend-a7863caf22cb25be9450c706c419fedd.scn"]
 
 [params]
 

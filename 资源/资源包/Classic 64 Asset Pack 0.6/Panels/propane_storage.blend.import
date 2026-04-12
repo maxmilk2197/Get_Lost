@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://878n11aldlss"
-path="res://.godot/imported/propane_storage.blend-cc734da550468a07c46f99f23fcfa899.scn"
+path="res://.godot/imported/propane_storage.blend-12f0c47c321577526c17091fa2f14bd3.scn"
 
 [deps]
 
-source_file="res://资源/资源包/-Classic 64 Asset Pack 0.6/Panels/propane_storage.blend"
-dest_files=["res://.godot/imported/propane_storage.blend-cc734da550468a07c46f99f23fcfa899.scn"]
+source_file="res://资源/资源包/Classic 64 Asset Pack 0.6/Panels/propane_storage.blend"
+dest_files=["res://.godot/imported/propane_storage.blend-12f0c47c321577526c17091fa2f14bd3.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://du60sppiyj1yq"
-path="res://.godot/imported/food_canned_soup_7.blend-567942098cbd2bacf67d99ea671710be.scn"
+path="res://.godot/imported/food_canned_soup_7.blend-b8d2a5ed8f35d8e1ffdcf902532f4beb.scn"
 
 [deps]
 
-source_file="res://资源/资源包/-Classic 64 Asset Pack 0.6/Food/food_canned_soup_7.blend"
-dest_files=["res://.godot/imported/food_canned_soup_7.blend-567942098cbd2bacf67d99ea671710be.scn"]
+source_file="res://资源/资源包/Classic 64 Asset Pack 0.6/Food/food_canned_soup_7.blend"
+dest_files=["res://.godot/imported/food_canned_soup_7.blend-b8d2a5ed8f35d8e1ffdcf902532f4beb.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bwfjg7g0ouuob"
-path="res://.godot/imported/electrical_junctionbox_small.blend-bf70ebb0a85e7db44dacfc0519f49579.scn"
+path="res://.godot/imported/electrical_junctionbox_small.blend-95f13924c690ccece8e542d4bb4696e2.scn"
 
 [deps]
 
-source_file="res://资源/资源包/-Classic 64 Asset Pack 0.6/Electrical/electrical_junctionbox_small.blend"
-dest_files=["res://.godot/imported/electrical_junctionbox_small.blend-bf70ebb0a85e7db44dacfc0519f49579.scn"]
+source_file="res://资源/资源包/Classic 64 Asset Pack 0.6/Electrical/electrical_junctionbox_small.blend"
+dest_files=["res://.godot/imported/electrical_junctionbox_small.blend-95f13924c690ccece8e542d4bb4696e2.scn"]
 
 [params]
 

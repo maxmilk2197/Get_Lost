@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bhd5rdnvmh64u"
-path="res://.godot/imported/sign_confined_space.blend-6dc8e32a995c3c7fba65aa84718610f4.scn"
+path="res://.godot/imported/sign_confined_space.blend-893003e73b0c308f737abc0193013997.scn"
 
 [deps]
 
-source_file="res://资源/资源包/-Classic 64 Asset Pack 0.6/Signs/sign_confined_space.blend"
-dest_files=["res://.godot/imported/sign_confined_space.blend-6dc8e32a995c3c7fba65aa84718610f4.scn"]
+source_file="res://资源/资源包/Classic 64 Asset Pack 0.6/Signs/sign_confined_space.blend"
+dest_files=["res://.godot/imported/sign_confined_space.blend-893003e73b0c308f737abc0193013997.scn"]
 
 [params]
 

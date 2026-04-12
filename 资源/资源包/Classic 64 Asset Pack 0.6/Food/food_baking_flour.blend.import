@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://borgluuw6gdd5"
-path="res://.godot/imported/food_baking_flour.blend-8898d6995e304cc9213f1762025bb09e.scn"
+path="res://.godot/imported/food_baking_flour.blend-6ad03a2008140e813c49724e13ba80bc.scn"
 
 [deps]
 
-source_file="res://资源/资源包/-Classic 64 Asset Pack 0.6/Food/food_baking_flour.blend"
-dest_files=["res://.godot/imported/food_baking_flour.blend-8898d6995e304cc9213f1762025bb09e.scn"]
+source_file="res://资源/资源包/Classic 64 Asset Pack 0.6/Food/food_baking_flour.blend"
+dest_files=["res://.godot/imported/food_baking_flour.blend-6ad03a2008140e813c49724e13ba80bc.scn"]
 
 [params]
 

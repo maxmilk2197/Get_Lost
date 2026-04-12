@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dt68py8ljkj6q"
-path="res://.godot/imported/drink_can_soda_3.blend-338120b49ae32a825d87aa24a77db074.scn"
+path="res://.godot/imported/drink_can_soda_3.blend-ab572300e7a956b5f8edc6bacbd6500d.scn"
 
 [deps]
 
-source_file="res://资源/资源包/-Classic 64 Asset Pack 0.6/Food/drink_can_soda_3.blend"
-dest_files=["res://.godot/imported/drink_can_soda_3.blend-338120b49ae32a825d87aa24a77db074.scn"]
+source_file="res://资源/资源包/Classic 64 Asset Pack 0.6/Food/drink_can_soda_3.blend"
+dest_files=["res://.godot/imported/drink_can_soda_3.blend-ab572300e7a956b5f8edc6bacbd6500d.scn"]
 
 [params]
 

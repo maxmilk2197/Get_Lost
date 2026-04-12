@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bku6gly8wfauw"
-path="res://.godot/imported/tree_trunk.blend-d3d4f12021292291694ceb5824d30cec.scn"
+path="res://.godot/imported/tree_trunk.blend-5d2e2747a466ce99e5c2caa5f895d16b.scn"
 
 [deps]
 
-source_file="res://资源/资源包/-Classic 64 Asset Pack 0.6/Nature/tree_trunk.blend"
-dest_files=["res://.godot/imported/tree_trunk.blend-d3d4f12021292291694ceb5824d30cec.scn"]
+source_file="res://资源/资源包/Classic 64 Asset Pack 0.6/Nature/tree_trunk.blend"
+dest_files=["res://.godot/imported/tree_trunk.blend-5d2e2747a466ce99e5c2caa5f895d16b.scn"]
 
 [params]
 

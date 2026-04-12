@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dmi0q2ep8ratn"
-path="res://.godot/imported/food_cereal_6.blend-dd5cf962dc235a754d6ca348a8255090.scn"
+path="res://.godot/imported/food_cereal_6.blend-29fb1cb61c340efbbe71b42068d5c761.scn"
 
 [deps]
 
-source_file="res://资源/资源包/-Classic 64 Asset Pack 0.6/Food/food_cereal_6.blend"
-dest_files=["res://.godot/imported/food_cereal_6.blend-dd5cf962dc235a754d6ca348a8255090.scn"]
+source_file="res://资源/资源包/Classic 64 Asset Pack 0.6/Food/food_cereal_6.blend"
+dest_files=["res://.godot/imported/food_cereal_6.blend-29fb1cb61c340efbbe71b42068d5c761.scn"]
 
 [params]
 

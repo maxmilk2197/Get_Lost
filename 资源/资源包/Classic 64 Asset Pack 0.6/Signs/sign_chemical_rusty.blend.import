@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cu08ivudhpa1o"
-path="res://.godot/imported/sign_chemical_rusty.blend-eb7c70e69c9e4301f4e467b964d84342.scn"
+path="res://.godot/imported/sign_chemical_rusty.blend-e3bf625c91189f4ff98687e31c7777af.scn"
 
 [deps]
 
-source_file="res://资源/资源包/-Classic 64 Asset Pack 0.6/Signs/sign_chemical_rusty.blend"
-dest_files=["res://.godot/imported/sign_chemical_rusty.blend-eb7c70e69c9e4301f4e467b964d84342.scn"]
+source_file="res://资源/资源包/Classic 64 Asset Pack 0.6/Signs/sign_chemical_rusty.blend"
+dest_files=["res://.godot/imported/sign_chemical_rusty.blend-e3bf625c91189f4ff98687e31c7777af.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cbqb3e8j4rs58"
-path="res://.godot/imported/food_snack_chips_3.blend-d592ce2ed999d77dc8a0e768eb55fb42.scn"
+path="res://.godot/imported/food_snack_chips_3.blend-66c1993b26359972c311671a3de82813.scn"
 
 [deps]
 
-source_file="res://资源/资源包/-Classic 64 Asset Pack 0.6/Food/food_snack_chips_3.blend"
-dest_files=["res://.godot/imported/food_snack_chips_3.blend-d592ce2ed999d77dc8a0e768eb55fb42.scn"]
+source_file="res://资源/资源包/Classic 64 Asset Pack 0.6/Food/food_snack_chips_3.blend"
+dest_files=["res://.godot/imported/food_snack_chips_3.blend-66c1993b26359972c311671a3de82813.scn"]
 
 [params]
 

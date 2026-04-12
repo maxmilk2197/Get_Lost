@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://ukgalu2kem5h"
-path="res://.godot/imported/food_pet_2.blend-407e3b8cd1cb436abbc153b94c9b94e3.scn"
+path="res://.godot/imported/food_pet_2.blend-ee05f8c73f4aac92530dd3bc40561193.scn"
 
 [deps]
 
-source_file="res://资源/资源包/-Classic 64 Asset Pack 0.6/Food/food_pet_2.blend"
-dest_files=["res://.godot/imported/food_pet_2.blend-407e3b8cd1cb436abbc153b94c9b94e3.scn"]
+source_file="res://资源/资源包/Classic 64 Asset Pack 0.6/Food/food_pet_2.blend"
+dest_files=["res://.godot/imported/food_pet_2.blend-ee05f8c73f4aac92530dd3bc40561193.scn"]
 
 [params]
 

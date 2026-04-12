@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://7snpu0flivsi"
-path="res://.godot/imported/rolling tool chest.blend-4451b66414ed4534816805fabeff6369.scn"
+path="res://.godot/imported/rolling tool chest.blend-09f51cb15aea295711231ab848e87588.scn"
 
 [deps]
 
-source_file="res://资源/资源包/-Classic 64 Asset Pack 0.6/Tools/rolling tool chest.blend"
-dest_files=["res://.godot/imported/rolling tool chest.blend-4451b66414ed4534816805fabeff6369.scn"]
+source_file="res://资源/资源包/Classic 64 Asset Pack 0.6/Tools/rolling tool chest.blend"
+dest_files=["res://.godot/imported/rolling tool chest.blend-09f51cb15aea295711231ab848e87588.scn"]
 
 [params]
 

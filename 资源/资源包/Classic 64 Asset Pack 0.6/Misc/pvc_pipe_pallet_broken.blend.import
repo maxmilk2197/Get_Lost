@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dsb3k6ptiaea6"
-path="res://.godot/imported/pvc_pipe_pallet_broken.blend-3a3468ec0869f3e18b2af31c564847e9.scn"
+path="res://.godot/imported/pvc_pipe_pallet_broken.blend-aa0913a4d97af8ac6e182e415f764f44.scn"
 
 [deps]
 
-source_file="res://资源/资源包/-Classic 64 Asset Pack 0.6/Misc/pvc_pipe_pallet_broken.blend"
-dest_files=["res://.godot/imported/pvc_pipe_pallet_broken.blend-3a3468ec0869f3e18b2af31c564847e9.scn"]
+source_file="res://资源/资源包/Classic 64 Asset Pack 0.6/Misc/pvc_pipe_pallet_broken.blend"
+dest_files=["res://.godot/imported/pvc_pipe_pallet_broken.blend-aa0913a4d97af8ac6e182e415f764f44.scn"]
 
 [params]
 

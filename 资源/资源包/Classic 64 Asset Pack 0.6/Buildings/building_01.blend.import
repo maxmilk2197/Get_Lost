@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bu1ygo5ysyp41"
-path="res://.godot/imported/building_01.blend-06f6cf964149426f522b82dc6cd54b7c.scn"
+path="res://.godot/imported/building_01.blend-27f0112c97b4aef465e6d8f71086cee0.scn"
 
 [deps]
 
-source_file="res://资源/资源包/-Classic 64 Asset Pack 0.6/Buildings/building_01.blend"
-dest_files=["res://.godot/imported/building_01.blend-06f6cf964149426f522b82dc6cd54b7c.scn"]
+source_file="res://资源/资源包/Classic 64 Asset Pack 0.6/Buildings/building_01.blend"
+dest_files=["res://.godot/imported/building_01.blend-27f0112c97b4aef465e6d8f71086cee0.scn"]
 
 [params]
 

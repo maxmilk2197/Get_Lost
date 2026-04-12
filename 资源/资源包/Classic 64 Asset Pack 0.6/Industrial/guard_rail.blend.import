@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://c0no53h5q0tte"
-path="res://.godot/imported/guard_rail.blend-7d5a010b1983321046a888aad3ba8ab7.scn"
+path="res://.godot/imported/guard_rail.blend-69b267fec6d57f783356991c1e6a5e65.scn"
 
 [deps]
 
-source_file="res://资源/资源包/-Classic 64 Asset Pack 0.6/Industrial/guard_rail.blend"
-dest_files=["res://.godot/imported/guard_rail.blend-7d5a010b1983321046a888aad3ba8ab7.scn"]
+source_file="res://资源/资源包/Classic 64 Asset Pack 0.6/Industrial/guard_rail.blend"
+dest_files=["res://.godot/imported/guard_rail.blend-69b267fec6d57f783356991c1e6a5e65.scn"]
 
 [params]
 

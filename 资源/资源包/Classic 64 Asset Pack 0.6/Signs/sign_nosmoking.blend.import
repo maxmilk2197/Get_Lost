@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bm7v56qkqaayj"
-path="res://.godot/imported/sign_nosmoking.blend-abb815fa2bbfcfb56acb13d3fcdfb970.scn"
+path="res://.godot/imported/sign_nosmoking.blend-1af9663478de827b76731c88f25ffad2.scn"
 
 [deps]
 
-source_file="res://资源/资源包/-Classic 64 Asset Pack 0.6/Signs/sign_nosmoking.blend"
-dest_files=["res://.godot/imported/sign_nosmoking.blend-abb815fa2bbfcfb56acb13d3fcdfb970.scn"]
+source_file="res://资源/资源包/Classic 64 Asset Pack 0.6/Signs/sign_nosmoking.blend"
+dest_files=["res://.godot/imported/sign_nosmoking.blend-1af9663478de827b76731c88f25ffad2.scn"]
 
 [params]
 

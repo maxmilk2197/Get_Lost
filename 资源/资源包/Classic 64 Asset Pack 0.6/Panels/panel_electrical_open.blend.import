@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://246vr0x05cpp"
-path="res://.godot/imported/panel_electrical_open.blend-f48be226e6818fd4c9dbd4aedccd5021.scn"
+path="res://.godot/imported/panel_electrical_open.blend-25a84e907bb792e4b8f9f84268cfa1d8.scn"
 
 [deps]
 
-source_file="res://资源/资源包/-Classic 64 Asset Pack 0.6/Panels/panel_electrical_open.blend"
-dest_files=["res://.godot/imported/panel_electrical_open.blend-f48be226e6818fd4c9dbd4aedccd5021.scn"]
+source_file="res://资源/资源包/Classic 64 Asset Pack 0.6/Panels/panel_electrical_open.blend"
+dest_files=["res://.godot/imported/panel_electrical_open.blend-25a84e907bb792e4b8f9f84268cfa1d8.scn"]
 
 [params]
 

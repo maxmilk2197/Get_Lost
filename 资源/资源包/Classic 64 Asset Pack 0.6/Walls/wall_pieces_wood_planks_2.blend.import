@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cttt6wdijdjyc"
-path="res://.godot/imported/wall_pieces_wood_planks_2.blend-ec26f1d130c9db0ae15877a60c0d1bff.scn"
+path="res://.godot/imported/wall_pieces_wood_planks_2.blend-03855352f3dfb1bff90f392cfa250756.scn"
 
 [deps]
 
-source_file="res://资源/资源包/-Classic 64 Asset Pack 0.6/Walls/wall_pieces_wood_planks_2.blend"
-dest_files=["res://.godot/imported/wall_pieces_wood_planks_2.blend-ec26f1d130c9db0ae15877a60c0d1bff.scn"]
+source_file="res://资源/资源包/Classic 64 Asset Pack 0.6/Walls/wall_pieces_wood_planks_2.blend"
+dest_files=["res://.godot/imported/wall_pieces_wood_planks_2.blend-03855352f3dfb1bff90f392cfa250756.scn"]
 
 [params]
 

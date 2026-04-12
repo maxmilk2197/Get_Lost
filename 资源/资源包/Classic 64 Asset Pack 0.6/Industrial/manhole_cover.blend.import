@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dyhyiel66i1ve"
-path="res://.godot/imported/manhole_cover.blend-60570d1f4fdeba107d3a5048b21304a8.scn"
+path="res://.godot/imported/manhole_cover.blend-f3008dc0531ca0baab48d05fe37c6c9f.scn"
 
 [deps]
 
-source_file="res://资源/资源包/-Classic 64 Asset Pack 0.6/Industrial/manhole_cover.blend"
-dest_files=["res://.godot/imported/manhole_cover.blend-60570d1f4fdeba107d3a5048b21304a8.scn"]
+source_file="res://资源/资源包/Classic 64 Asset Pack 0.6/Industrial/manhole_cover.blend"
+dest_files=["res://.godot/imported/manhole_cover.blend-f3008dc0531ca0baab48d05fe37c6c9f.scn"]
 
 [params]
 

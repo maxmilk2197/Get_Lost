@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bwm8ss6bbjus4"
-path="res://.godot/imported/panel_amp_controls.blend-d4d3786d17f8b54c2b64fa5b324bdf76.scn"
+path="res://.godot/imported/panel_amp_controls.blend-313847a7fbd78d376a0f0029032519e7.scn"
 
 [deps]
 
-source_file="res://资源/资源包/-Classic 64 Asset Pack 0.6/Panels/panel_amp_controls.blend"
-dest_files=["res://.godot/imported/panel_amp_controls.blend-d4d3786d17f8b54c2b64fa5b324bdf76.scn"]
+source_file="res://资源/资源包/Classic 64 Asset Pack 0.6/Panels/panel_amp_controls.blend"
+dest_files=["res://.godot/imported/panel_amp_controls.blend-313847a7fbd78d376a0f0029032519e7.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cd6ysig0el8xj"
-path="res://.godot/imported/commerical_shelf_end.blend-10d22ff0d56487b8adf5aef58c6138c5.scn"
+path="res://.godot/imported/commerical_shelf_end.blend-4ac31b91ff8f52b7b3f82b0bc4a083f9.scn"
 
 [deps]
 
-source_file="res://资源/资源包/-Classic 64 Asset Pack 0.6/Shelves/commerical_shelf_end.blend"
-dest_files=["res://.godot/imported/commerical_shelf_end.blend-10d22ff0d56487b8adf5aef58c6138c5.scn"]
+source_file="res://资源/资源包/Classic 64 Asset Pack 0.6/Shelves/commerical_shelf_end.blend"
+dest_files=["res://.godot/imported/commerical_shelf_end.blend-4ac31b91ff8f52b7b3f82b0bc4a083f9.scn"]
 
 [params]
 

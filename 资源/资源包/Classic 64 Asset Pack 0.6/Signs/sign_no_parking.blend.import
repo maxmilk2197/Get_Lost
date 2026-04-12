@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dbslkgcgo23br"
-path="res://.godot/imported/sign_no_parking.blend-254c56594e1b9ea23cc02a670036edd6.scn"
+path="res://.godot/imported/sign_no_parking.blend-9affdcb1e424dcbbb2f7f5ed9d11b600.scn"
 
 [deps]
 
-source_file="res://资源/资源包/-Classic 64 Asset Pack 0.6/Signs/sign_no_parking.blend"
-dest_files=["res://.godot/imported/sign_no_parking.blend-254c56594e1b9ea23cc02a670036edd6.scn"]
+source_file="res://资源/资源包/Classic 64 Asset Pack 0.6/Signs/sign_no_parking.blend"
+dest_files=["res://.godot/imported/sign_no_parking.blend-9affdcb1e424dcbbb2f7f5ed9d11b600.scn"]
 
 [params]
 

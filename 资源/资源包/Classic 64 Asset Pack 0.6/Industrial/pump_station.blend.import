@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b6ufskmp6teji"
-path="res://.godot/imported/pump_station.blend-be0eb7720f0f8e98e00407bebf0fdd5f.scn"
+path="res://.godot/imported/pump_station.blend-b8d6ef4569e4147f3f1196a15ee5ece2.scn"
 
 [deps]
 
-source_file="res://资源/资源包/-Classic 64 Asset Pack 0.6/Industrial/pump_station.blend"
-dest_files=["res://.godot/imported/pump_station.blend-be0eb7720f0f8e98e00407bebf0fdd5f.scn"]
+source_file="res://资源/资源包/Classic 64 Asset Pack 0.6/Industrial/pump_station.blend"
+dest_files=["res://.godot/imported/pump_station.blend-b8d6ef4569e4147f3f1196a15ee5ece2.scn"]
 
 [params]
 

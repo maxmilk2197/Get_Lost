@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://chigc2hjl3q45"
-path="res://.godot/imported/products_papertowels_pack.blend-acf9f9260bd09e828c36b8771bbc94b0.scn"
+path="res://.godot/imported/products_papertowels_pack.blend-913258b6c90e56d0eaff38ce32998502.scn"
 
 [deps]
 
-source_file="res://资源/资源包/-Classic 64 Asset Pack 0.6/Products/products_papertowels_pack.blend"
-dest_files=["res://.godot/imported/products_papertowels_pack.blend-acf9f9260bd09e828c36b8771bbc94b0.scn"]
+source_file="res://资源/资源包/Classic 64 Asset Pack 0.6/Products/products_papertowels_pack.blend"
+dest_files=["res://.godot/imported/products_papertowels_pack.blend-913258b6c90e56d0eaff38ce32998502.scn"]
 
 [params]
 

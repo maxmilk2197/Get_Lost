@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bu86n5cumjnll"
-path="res://.godot/imported/book_brown_01.blend-646f84c3d948741c22a41e691df3bcbe.scn"
+path="res://.godot/imported/book_brown_01.blend-40956c1d839b922921f2814e36a74fb1.scn"
 
 [deps]
 
-source_file="res://资源/资源包/-Classic 64 Asset Pack 0.6/Books/book_brown_01.blend"
-dest_files=["res://.godot/imported/book_brown_01.blend-646f84c3d948741c22a41e691df3bcbe.scn"]
+source_file="res://资源/资源包/Classic 64 Asset Pack 0.6/Books/book_brown_01.blend"
+dest_files=["res://.godot/imported/book_brown_01.blend-40956c1d839b922921f2814e36a74fb1.scn"]
 
 [params]
 

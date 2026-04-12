@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cwkooc2we5bka"
-path="res://.godot/imported/fire_extenguisher_case.blend-7f5860c02656d48da30b525315fa079c.scn"
+path="res://.godot/imported/fire_extenguisher_case.blend-e41b2c3eda67b2702bffefdce2716b45.scn"
 
 [deps]
 
-source_file="res://资源/资源包/-Classic 64 Asset Pack 0.6/Industrial/fire_extenguisher_case.blend"
-dest_files=["res://.godot/imported/fire_extenguisher_case.blend-7f5860c02656d48da30b525315fa079c.scn"]
+source_file="res://资源/资源包/Classic 64 Asset Pack 0.6/Industrial/fire_extenguisher_case.blend"
+dest_files=["res://.godot/imported/fire_extenguisher_case.blend-e41b2c3eda67b2702bffefdce2716b45.scn"]
 
 [params]
 
