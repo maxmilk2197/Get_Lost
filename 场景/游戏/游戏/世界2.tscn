@@ -1,0 +1,80 @@
+[gd_scene format=3 uid="uid://brlvum84kvwv5"]
+
+[ext_resource type="Shader" uid="uid://dxyonjnd7y6l2" path="res://资源/着色器/ps1.gdshader" id="2_1cw7t"]
+[ext_resource type="PackedScene" uid="uid://d38eabphva4mq" path="res://场景/游戏/地图/地图_1.tscn" id="6_j0icy"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_wuhqh"]
+sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
+ground_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
+
+[sub_resource type="Sky" id="Sky_r7m7w"]
+sky_material = SubResource("ProceduralSkyMaterial_wuhqh")
+
+[sub_resource type="Environment" id="Environment_31881"]
+background_mode = 1
+background_color = Color(0.34407577, 0.34407574, 0.34407574, 1)
+sky = SubResource("Sky_r7m7w")
+tonemap_mode = 2
+glow_enabled = true
+fog_enabled = true
+fog_light_color = Color(0.019607844, 0.019607844, 0.03137255, 1)
+fog_density = 0.15
+volumetric_fog_enabled = true
+volumetric_fog_density = 0.0073
+volumetric_fog_albedo = Color(0.83137256, 0.7882353, 0.65882355, 1)
+volumetric_fog_temporal_reprojection_enabled = false
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_18twa"]
+shader = ExtResource("2_1cw7t")
+shader_parameter/pixel_resolution = 240.0
+shader_parameter/color_steps = 16
+shader_parameter/noise_strength = 0.1310000062225
+shader_parameter/enable_dither = true
+shader_parameter/dither_strength = 0.3
+shader_parameter/enable_glow = true
+shader_parameter/glow_strength = 0.4
+shader_parameter/glow_spread = 0.005
+shader_parameter/enable_vintage = true
+shader_parameter/vintage_strength = 0.8
+
+[node name="世界_1" type="Node3D" unique_id=827532775]
+
+[node name="世界环境" type="WorldEnvironment" parent="." unique_id=1387509320]
+environment = SubResource("Environment_31881")
+
+[node name="方向光" type="DirectionalLight3D" parent="." unique_id=1975442850]
+transform = Transform3D(-0.8660254, -0.43301278, 0.25, 0, 0.49999997, 0.86602545, -0.50000006, 0.75, -0.43301266, 0, 34.305313, 0)
+light_color = Color(0.12591082, 0.12591085, 0.12591079, 1)
+shadow_enabled = true
+
+[node name="地图2" parent="." unique_id=1458285047 instance=ExtResource("6_j0icy")]
+
+[node name="光" type="SpotLight3D" parent="地图2/volvo" parent_id_path=PackedInt32Array(1458285047, 2095451489) index="1" unique_id=1539153972]
+transform = Transform3D(-1.997397, -0.06259806, 0.08054189, -0.063004926, 1.9989878, -0.00885364, -0.08022401, -0.011379384, -1.998358, -2.6889744, 3.4863336, 7.194458)
+shadow_enabled = true
+distance_fade_enabled = true
+spot_range = 6.5682263
+spot_angle = 33.486042
+
+[node name="光2" type="SpotLight3D" parent="地图2/volvo" parent_id_path=PackedInt32Array(1458285047, 2095451489) index="2" unique_id=1407762478]
+transform = Transform3D(-1.997397, -0.06259806, 0.08054189, -0.063004926, 1.9989878, -0.00885364, -0.08022401, -0.011379384, -1.998358, 2.7158003, 3.413017, 7.216011)
+shadow_enabled = true
+distance_fade_enabled = true
+spot_range = 6.5682263
+spot_angle = 31.634855
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=1846788716]
+transform = Transform3D(0.8952457, 0, -0.445573, 0, 1, 0, 0.445573, 0, 0.8952457, -6.781036, 3.023201, 35.629505)
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1075733663]
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer" unique_id=2094615849]
+material = SubResource("ShaderMaterial_18twa")
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+metadata/_edit_use_anchors_ = true
+
+[editable path="地图2"]

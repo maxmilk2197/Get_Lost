@@ -2,6 +2,7 @@
 
 [ext_resource type="FontFile" uid="uid://b5kha5tvvp1id" path="res://资源/字体/ark-pixel-font/ark-pixel-12px-monospaced-ja.ttf" id="1_4c03e"]
 [ext_resource type="Script" uid="uid://ci4cudmqhqlib" path="res://脚本/主菜单/九宫格按钮脚本.gd" id="1_n63j1"]
+[ext_resource type="PackedScene" uid="uid://brlvum84kvwv5" path="res://场景/游戏/游戏/世界2.tscn" id="3_40rgh"]
 
 [node name="主菜单" type="Control" unique_id=1581595473]
 layout_mode = 3
@@ -11,11 +12,27 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
+[node name="SubViewportContainer" type="SubViewportContainer" parent="." unique_id=1510352773]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="SubViewport" type="SubViewport" parent="SubViewportContainer" unique_id=466140491]
+handle_input_locally = false
+size = Vector2i(1920, 1080)
+render_target_update_mode = 4
+
+[node name="世界" parent="SubViewportContainer/SubViewport" unique_id=827532775 instance=ExtResource("3_40rgh")]
+
 [node name="标题" type="Label" parent="." unique_id=181091528]
 layout_mode = 1
 anchors_preset = 10
 anchor_right = 1.0
-offset_bottom = 171.0
+offset_top = 67.0
+offset_bottom = 268.0
 grow_horizontal = 2
 theme_override_fonts/font = ExtResource("1_4c03e")
 theme_override_font_sizes/font_size = 200
@@ -25,22 +42,22 @@ vertical_alignment = 1
 
 [node name="九宫格" type="NinePatchRect" parent="." unique_id=74001232]
 layout_mode = 1
-anchors_preset = 4
-anchor_top = 0.5
-anchor_bottom = 0.5
-offset_left = 24.0
-offset_top = -132.0
-offset_right = 220.0
-offset_bottom = 188.0
+anchors_preset = -1
+anchor_left = 0.0125
+anchor_top = 0.37777779
+anchor_right = 0.3140625
+anchor_bottom = 0.837963
 grow_vertical = 2
-scale = Vector2(2, 2)
 script = ExtResource("1_n63j1")
+metadata/_edit_use_anchors_ = true
 
 [node name="开始游戏" type="Button" parent="九宫格" unique_id=1119715800]
-layout_mode = 0
-offset_top = 56.0
-offset_right = 196.0
-offset_bottom = 120.0
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 136.0
+grow_horizontal = 2
+theme_override_font_sizes/font_size = 32
 text = "开始游戏"
 
 [node name="设置" type="Button" parent="九宫格" unique_id=234998494]
@@ -49,17 +66,23 @@ anchors_preset = 14
 anchor_top = 0.5
 anchor_right = 1.0
 anchor_bottom = 0.5
-offset_top = -32.0
-offset_bottom = 32.0
+offset_top = -67.5
+offset_bottom = 57.5
 grow_horizontal = 2
 grow_vertical = 2
+theme_override_font_sizes/font_size = 32
 text = "设置"
 
 [node name="退出" type="Button" parent="九宫格" unique_id=966720688]
-layout_mode = 0
-offset_top = 200.0
-offset_right = 196.0
-offset_bottom = 264.0
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -136.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_font_sizes/font_size = 32
 text = "退出"
 
 [node name="淡化" type="ColorRect" parent="." unique_id=883407139]
